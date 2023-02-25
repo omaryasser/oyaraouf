@@ -65,7 +65,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-docker build -t oyaraouf . && docker tag oyaraouf europe-west8-docker.pkg.dev/oyaraouf/oyaraouf/oyaraouf & docker push europe-west8-docker.pkg.dev/oyaraouf/oyaraouf/oyaraouf:latest && gcloud run services replace service.yaml
+docker build -t oyaraouf . && docker tag oyaraouf europe-west1-docker.pkg.dev/oyaraouf/oyaraouf/oyaraouf & docker push europe-west1-docker.pkg.dev/oyaraouf/oyaraouf/oyaraouf:latest &&  gcloud run services replace service.yaml
 
 ### `npm run build` fails to minify
 
