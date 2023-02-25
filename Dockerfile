@@ -20,5 +20,5 @@ ENV PORT 8080
 RUN npm run build
 
 # Start the app when the container launches
-CMD ["npm", "start"]
+CMD ["npx", "serve", "-s", "build"]
 
