@@ -1,1 +1,0 @@
-docker build -t oyaraouf . && docker tag oyaraouf europe-west1-docker.pkg.dev/oyaraouf/oyaraouf/oyaraouf & docker push europe-west1-docker.pkg.dev/oyaraouf/oyaraouf/oyaraouf:latest &&  gcloud run services replace service.yaml
