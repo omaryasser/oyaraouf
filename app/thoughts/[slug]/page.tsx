@@ -38,7 +38,7 @@ export default async function ThoughtDetailPage({
           <div className="relative w-20 h-20 flex-shrink-0">
             <Link href="/" passHref>
               <Image
-                src="favicon.png"
+                src="/favicon.png"
                 alt="Omar's avatar"
                 fill
                 className="rounded-full object-cover"
@@ -53,7 +53,7 @@ export default async function ThoughtDetailPage({
           {/* Placeholder image on the right (hidden) to keep layout symmetrical */}
           <div className="relative w-20 h-20 flex-shrink-0">
             <Image
-              src="favicon.png"
+              src="/favicon.png"
               alt="Omar's avatar"
               fill
               className="rounded-full object-cover"
