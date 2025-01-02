@@ -1,0 +1,84 @@
+1:"$Sreact.fragment"
+2:I[4924,["711","static/chunks/8e1d74a4-8f07bf39a40babfa.js","173","static/chunks/173-97f075015cd23cd8.js","110","static/chunks/110-45924b7dc11e060e.js","770","static/chunks/770-46fac79e122c97a7.js","177","static/chunks/app/layout-a5e55e09ed6e2ba1.js"],"default"]
+3:I[5244,[],""]
+4:I[3866,[],""]
+5:I[6476,["711","static/chunks/8e1d74a4-8f07bf39a40babfa.js","173","static/chunks/173-97f075015cd23cd8.js","110","static/chunks/110-45924b7dc11e060e.js","770","static/chunks/770-46fac79e122c97a7.js","177","static/chunks/app/layout-a5e55e09ed6e2ba1.js"],"default"]
+6:I[2180,["173","static/chunks/173-97f075015cd23cd8.js","970","static/chunks/970-fa0776a0717572c1.js","914","static/chunks/914-402aff79bab00ef8.js","401","static/chunks/app/thoughts/page-de67558c4c70492a.js"],"default"]
+8:I[6213,[],"OutletBoundary"]
+a:I[6213,[],"MetadataBoundary"]
+c:I[6213,[],"ViewportBoundary"]
+e:I[4835,[],""]
+:HL["/_next/static/css/8220c9641985d977.css","style"]
+7:T12a6,
+
+## Table of contents
+
+* [Advices](#advices)
+* [Template](#template)
+
+## Advices
+*Note: I am not an expert in building resumes, but I've seen a lot of them. I have reviewed many resumes and found myself giving some common comments and tips that I'll share in this post.*
+
+### 1. Use Simple Style
+
+Recruiters and resume reviewers may have different preferences regarding the template and the colors. So, choose a simple black and white template (and blue for links) and try to impress the resume reviewer with the content rather than the colors.
+
+Add enough spacing between lines and enough margin so that the resume is satisfying for the reviewer’s eyes. You don't want the reviewer to skim your resume because it is not comfortable for their eyes.
+
+### 2. Keep it Professional
+Resumes are good indicators of how keen and organized the candidate is. Don’t use smiley faces or slang language. Don’t make grammar mistakes. Even small mistakes like punctuation mistakes may leave an impression.
+
+### 3. Keep it Relevant & Short
+If you are a fresh graduate, then I'd recommend having a one-page resume.
+
+Mention only the information that is relevant and would be interesting considering the interests of the company you are applying to. Prioritize what you will include or exclude in your resume based on the company's interests and the specific role you are applying for. This means that you may end up building different resumes for different companies or different job roles.
+
+Resumes are never exhaustive of your history. Don't try to add every tiny detail, or it may leave an impression of a shortage of accomplishments.
+
+Add links to your profiles on LinkedIn, GitHub, and others (e.g., a competitive programmer should add a link to their profile on one of the online judges like Codeforces). Make those links visible (at the beginning of the resume). Those links don't take significant space in the resume but are rich sources of information about you.
+
+### 4. Describe your Contributions Clearly
+Don’t just say that you have contributed to project X or that you were part of a team who worked on project X. Say exactly what you did and what your main responsibility was in it. Without specifying, a reviewer may get the feeling that you were not a key contributor to the project, so they may not consider the project as an indicator of one of your skills.
+
+Clarify your mastery level of every skill, tool, and language you mention (e.g., Main: Java, C++. Others: Python).
+
+### 5. Key Components of Project Description
+Make the descriptions of your projects consistent with each other (i.e., structure them in the same way). Key components of a project description are:
+
+* A descriptive name of the project (i.e., not the project's nickname because this will add no information to the reviewer)
+* A brief summary of the goal of the project
+* The number of team members
+* Your main responsibility in the project
+* Technologies and skills demonstrated in this project
+* If it is a coding project, add a link to the project code on GitHub.
+
+### 6. Sort the Sections
+This is again related to trying to optimize how relevant your Resume structure is to your reviewer. I'd add the sections that include the most impressive accomplishments at the beginning.
+
+### 7. Selected-courses Section
+If you are a fresh graduate, consider adding a section in which you mention some non-basic and non-introductory courses that are as relevant as possible to the interests of the company you are applying for.
+
+### 8. Get ATS Insights
+**Warning**: Before using these systems, hide your personal information like email address, phone number, and home address to not get spammed later and to not have them collected and used without your consent.
+
+Many companies use software to filter resumes in the screening phase. These systems are called Applicant Tracking Systems (ATS), and there are some free and some paid versions of them on the internet. Run your CV against some of them to get some insights into what can be improved to pass these systems' tests.
+
+## Template
+
+View the template's code and how it looks at https://omaryasser.github.io/html-resume/resume.html.
+
+1. **Edit the Template**: Open the HTML template file and replace the information with your own details.
+
+2. **Preview the Changes**: Use a web browser to open the edited HTML file and check that everything looks correct.
+
+3. **Print to PDF**:
+   - Once you're happy with the changes, open the HTML file in your browser.
+   - Use the browser's **Print** function (`Ctrl+P` or `Cmd+P` on Mac).
+   - Choose **Save as PDF** from the list of printers.
+   - Set the layout and margins as desired, then save the file as a PDF.
+
+This will give you a polished PDF version of the template with your custom information.
+0:{"P":null,"b":"3uw2D0dDwGkEDROoZGkDf","p":"","c":["","thoughts"],"i":false,"f":[[["",{"children":["thoughts",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8220c9641985d977.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"flex flex-col bg-grey","children":[["$","main",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}],["$","$L5",null,{}]]}]}]]}],{"children":["thoughts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","thoughts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L6",null,{"thoughts":[{"slug":"resume-advices","title":"Resume Advices","date":"2024-10-01","summary":"The article talks about resume advices and tips for building an effective resume.","type":"Article","content":"$7","previousSlug":null,"nextSlug":"they-need-help-but-no-time"},{"slug":"they-need-help-but-no-time","title":"They Need Help But We Don't Have Time","date":"2024-09-01","summary":null,"type":"Post","content":"\nلو انت من اللي بقالهم سنة بيقنعوا نفسهم انهم معندهمش اللي يساعدوا بيه إخواتهم في فلسطين أو السودان أو غيرهم فرجاء إعادة النظر في وقتك ومالك وعلمك وجهدك مبذولين في ايه وليه وهل فعلا طريقة بذلهم تتماشى مع أهدافك الرئيسية في الحياة ولا لا لان صعب سنة كاملة منعرفش نخصص فيها جزء ثابت ولو صغير جدا من وقتنا او مالنا او جهدنا او علمنا أو نوايانا للمساعدة الا لو كان اللي بيحصل مش في قائمة أولوياتنا. \n\n&nbsp;\n\nHave you been willing to help the Palestinians/Sudanese/Others but have been convincing yourself, for the last year or more, that you're too busy to contribute? It's time to reconsider whether you are using your knowledge or spending your time, energy, and money in a way that aligns with your deepest values. One year is too long.","previousSlug":"resume-advices","nextSlug":null}]}],null,["$","$L8",null,{"children":"$L9"}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","JPO6CYLCjZZVyweyY_PV2",{"children":[["$","$La",null,{"children":"$Lb"}],["$","$Lc",null,{"children":"$Ld"}],null]}]]}],false]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}
+d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Omar Yasser Morsi"}],["$","meta","2",{"name":"description","content":"Personal website of Omar Yasser Morsi"}],["$","link","3",{"rel":"icon","href":"/favicon.png"}]]
+9:null
