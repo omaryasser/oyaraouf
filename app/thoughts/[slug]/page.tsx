@@ -8,6 +8,8 @@ import ShareButtons from "./shareButtons";
 import Link from "next/link";
 import Image from "next/image";
 
+import type { Metadata } from "next";
+
 export async function generateStaticParams() {
   const thoughts = getAllThoughts();
   return thoughts.map((thought) => ({
@@ -21,6 +23,63 @@ type ThoughtDetailPageProps = {
   }>;
 };
 
+export async function generateMetadata({
+  params,
+}: ThoughtDetailPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const thought = getThoughtBySlug(slug);
+  if (!thought) {
+    return {
+      title: "Thought not found",
+      description: "Sorry, this thought doesn’t exist or has been removed.",
+    };
+  }
+
+  const fullUrl = `https://oyaraouf.com/thoughts/${slug}`;
+
+  return {
+    title: `${thought.title} - Omar Yasser Morsi`,
+    description:
+      thought.summary ||
+      "Personal website of Omar Yasser Morsi. Read articles, answers, and posts about software engineering, career, and life.",
+    keywords: [
+      "Omar Yasser Morsi",
+      "software engineering",
+      "thoughts",
+      "Q&A",
+      "articles",
+      "posts",
+      "career",
+    ],
+    openGraph: {
+      type: "article",
+      url: fullUrl,
+      title: `${thought.title} - Omar Yasser Morsi`,
+      description:
+        thought.summary ||
+        "Personal website of Omar Yasser Morsi. Read articles, answers, and posts about software engineering, career, and life.",
+      siteName: "oyaraouf.com",
+      images: [
+        {
+          url: "https://oyaraouf.com/favicon.png",
+          width: 512,
+          height: 512,
+          alt: "Omar Yasser Morsi favicon",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${thought.title} - Omar Yasser Morsi`,
+      description:
+        thought.summary ||
+        "Personal website of Omar Yasser Morsi. Read articles, answers, and posts about software engineering, career, and life.",
+      images: ["https://oyaraouf.com/favicon.png"],
+      creator: "@oyaraouf", // or your own Twitter handle
+    },
+  };
+}
+
 export default async function ThoughtDetailPage({
   params,
 }: ThoughtDetailPageProps) {
@@ -29,7 +88,6 @@ export default async function ThoughtDetailPage({
   if (!thought) {
     return <div className="text-center py-10">Thought not found.</div>;
   }
-  console.log(slug + " " + thought.previousSlug + " " + thought.nextSlug);
 
   return (
     <main className="mx-w py-8 px-4 bg-white flex flex-col items-center">

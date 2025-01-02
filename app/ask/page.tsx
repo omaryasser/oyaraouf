@@ -97,7 +97,7 @@ export default function Ask() {
         </section>
 
         {/* Ask Me Anything section */}
-        <section className="flex max-w flex-col items-center bg-white text-black">
+        <section className=" items-center bg-white text-black p-8">
           <div className="flex flex-col items-center">
             <ToastContainer />
             <p className="max-w-3xl">
@@ -108,9 +108,9 @@ export default function Ask() {
             <textarea
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
-              className="bg-gray-100 border border-gray-300 rounded-md px-4 py-2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full max-w-lg bg-gray-100 border border-gray-300 rounded-md px-4 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
               rows={4}
-              cols={50}
+              placeholder="Your question..."
             />
 
             <p className="max-w-xl pt-4 px-4">
@@ -122,9 +122,9 @@ export default function Ask() {
             <textarea
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="bg-gray-100 border border-gray-300 rounded-md px-4 py-2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full max-w-md bg-gray-100 border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
               rows={1}
-              cols={30}
+              placeholder="Your email (optional)"
             />
 
             {/* Conditionally render button or loading spinner */}
