@@ -24,7 +24,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
         <div className="relative w-20 h-20 flex-shrink-0">
           <Link href="/" passHref>
             <Image
-              src="/favicon.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.png`}
               alt="Omar's avatar"
               fill
               className="rounded-full object-cover"
@@ -39,7 +39,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
         {/* Placeholder image on the right (hidden) to keep layout symmetrical */}
         <div className="relative w-20 h-20 flex-shrink-0">
           <Image
-            src="/favicon.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.png`}
             alt="Omar's avatar"
             fill
             className="rounded-full object-cover"

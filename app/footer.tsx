@@ -127,29 +127,6 @@ export default function Footer() {
         `}
         </Script>
 
-        {/* <form
-          onSubmit={handleSubmit}
-          className="flex flex-col md:flex-row items-center justify-center gap-2"
-        >
-          <label className="text-sm md:text-base" htmlFor="email">
-            Add to mailing list:
-          </label>
-          <input
-            type="email"
-            id="email"
-            placeholder="Email"
-            className="px-4 py-2 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-purple-300"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-          <button
-            type="submit"
-            className="mt-2 md:mt-0 md:ml-2 px-6 py-2 rounded-md border border-white hover:bg-white hover:text-gray-900 transition-colors"
-          >
-            Submit
-          </button>
-        </form> */}
       </div>
     </footer>
   );

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Typewriter from "./typewriter"; // or wherever you placed the Typewriter component
+import Typewriter from "./typewriter";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
           <div className="max-w-3xl flex flex-col items-center">
             <div className="relative  w-24 h-24 pt-8">
               <Image
-                src="/favicon.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.png`}
                 alt="Omar's avatar"
                 fill
                 className="rounded-full object-cover"
