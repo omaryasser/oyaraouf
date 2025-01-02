@@ -35,7 +35,7 @@ export default function Footer() {
           </span>
         </h2>
 
-        <blockquote className="italic text-lg px-16 pt-4 pb-8">
+        <blockquote className="italic text-lg px-4 pt-4 pb-8">
           The best way to keep up with someone’s updates is to save their
           channel’s link and visit it regularly on your own schedule, without
           relying on a recommended algorithm.

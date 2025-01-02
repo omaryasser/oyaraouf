@@ -18,7 +18,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
   };
 
   return (
-    <main className="mx-w bg-white flex flex-col items-center">
+    <main className="mx-w bg-white text-black flex flex-col items-center">
       {/* Header section */}
       <section className="flex w-full items-center bg-white p-8">
         <div className="relative w-20 h-20 flex-shrink-0">
