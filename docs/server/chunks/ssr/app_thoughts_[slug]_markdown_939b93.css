@@ -1,0 +1,105 @@
+/* [project]/app/thoughts/[slug]/markdown.css [app-client] (css) */
+#react-markdown {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  line-height: 1.625;
+}
+
+#react-markdown h1 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+#react-markdown h2 {
+  margin-top: 1.25rem;
+  margin-bottom: .75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+#react-markdown h3 {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+#react-markdown p {
+  margin-bottom: 1rem;
+}
+
+#react-markdown ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  list-style-type: disc;
+}
+
+#react-markdown ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  list-style-type: decimal;
+}
+
+#react-markdown li {
+  margin-bottom: .25rem;
+}
+
+#react-markdown a {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity, 1));
+  text-decoration-line: underline;
+}
+
+#react-markdown blockquote {
+  margin-bottom: 1rem;
+  border-left-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+  padding-left: 1rem;
+  font-style: italic;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+
+#react-markdown hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-top-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+
+#react-markdown code {
+  border-radius: .25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+  padding-left: .25rem;
+  padding-right: .25rem;
+  padding-top: .125rem;
+  padding-bottom: .125rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+
+#react-markdown pre code {
+  margin-bottom: 1rem;
+  display: block;
+  border-radius: .25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+  padding: 1rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  overflow-x: auto;
+}
+
+
+/*# sourceMappingURL=app_thoughts_%5Bslug%5D_markdown_939b93.css.map*/
