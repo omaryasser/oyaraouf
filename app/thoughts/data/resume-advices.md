@@ -1,7 +1,7 @@
 ---
 title: "Resume Advices"
 date: "2024-10-01"
-summary: "The article talks about resume advices and tips for building an effective resume. aasdfasdf asdf asdf asdf as asdf asd fasdf asdf asdf asd fasdf asdf asd f"
+summary: "The article talks about resume advices and tips for building an effective resume."
 type: "Article"
 ---
 

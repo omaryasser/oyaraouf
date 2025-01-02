@@ -13,7 +13,6 @@ type ThoughtsListingProps = {
 export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
   const [visibleCount, setVisibleCount] = useState(5);
 
-  // Handler to show 5 more
   const showMore = () => {
     setVisibleCount((prev) => prev + 5);
   };
