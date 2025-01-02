@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Omar Yasser Morsi",
   description: "Personal website of Omar Yasser Morsi",
   icons: {
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.png`,
+    icon: "favicon.png",
   }
 };
 

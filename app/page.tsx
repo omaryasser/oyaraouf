@@ -12,7 +12,7 @@ export default function Home() {
           <div className="max-w-3xl flex flex-col items-center">
             <div className="relative  w-24 h-24 pt-8">
               <Image
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.png`}
+                src="favicon.png"
                 alt="Omar's avatar"
                 fill
                 className="rounded-full object-cover"
