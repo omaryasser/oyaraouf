@@ -24,7 +24,7 @@ export default function Home() {
               {" "}
               <Typewriter
                 text="I'm Omar 👋 Someone who happened to know some stuff about software engineering, career, and people."
-                speed={40}
+                speed={60}
               />
             </h2>
           </div>
