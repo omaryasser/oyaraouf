@@ -67,12 +67,12 @@ export default function Ask() {
   return (
     <div className="max-w">
       {/* Main content container */}
-      <main className="max-w w-full text-center">
-        <section className="flex w-full items-center bg-white p-8">
+      <main className="bg-white py-8 px-4 max-w w-full text-center">
+      <section className="flex flex-col w-full items-center">
           <div className="relative w-20 h-20 flex-shrink-0">
             <Link href="/" passHref>
               <Image
-                src="favicon.png"
+                src="/favicon.png"
                 alt="Omar's avatar"
                 fill
                 className="rounded-full object-cover"
@@ -80,20 +80,10 @@ export default function Ask() {
             </Link>
           </div>
 
-          <h2 className="flex-1 font-bold text-3xl text-center px-8 py-4">
-            Ask me anything 🤔
+          <h2 className="flex-1 font-bold text-2xl px-4 text-center  py-4">
+            Ask Me Anything 🤔
           </h2>
 
-          {/* Placeholder image on the right (hidden) to keep layout symmetrical */}
-          <div className="relative w-20 h-20 flex-shrink-0">
-            <Image
-              src="favicon.png"
-              alt="Omar's avatar"
-              fill
-              className="rounded-full object-cover"
-              hidden={true}
-            />
-          </div>
         </section>
 
         {/* Ask Me Anything section */}

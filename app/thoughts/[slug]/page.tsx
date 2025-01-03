@@ -92,7 +92,7 @@ export default async function ThoughtDetailPage({
   return (
     <main className="mx-w py-8 px-4 bg-white flex flex-col items-center">
       <article className="max-w-3xl flex flex-col items-center">
-        <section className="flex w-full items-center bg-white">
+        <section className="flex flex-col w-full items-center bg-white">
           <div className="relative w-20 h-20 flex-shrink-0">
             <Link href="/" passHref>
               <Image
@@ -104,25 +104,15 @@ export default async function ThoughtDetailPage({
             </Link>
           </div>
 
-          <h2 className="flex-1 font-bold text-3xl text-center px-8 py-4">
+          <h2 className="flex-1 font-bold text-2xl px-4 text-center  py-4">
             {thought.title}
           </h2>
 
-          {/* Placeholder image on the right (hidden) to keep layout symmetrical */}
-          <div className="relative w-20 h-20 flex-shrink-0">
-            <Image
-              src="/favicon.png"
-              alt="Omar's avatar"
-              fill
-              className="rounded-full object-cover"
-              hidden={true}
-            />
-          </div>
         </section>
 
         <p className="text-xs text-gray-600 mb-4 text-center">{thought.date}</p>
 
-        <div id="react-markdown" className="prose max-w-none">
+        <div id="react-markdown" className="text-black prose max-w-none">
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             rehypePlugins={[rehypeSlug]}
@@ -138,20 +128,20 @@ export default async function ThoughtDetailPage({
         <div className="max-w w-full flex flex-row">
           <div className="flex-1">
             {thought.previousSlug && (
-              <div className="text-left">
-                <Link href={`/thoughts/${thought.previousSlug}`}>
-                  <span>Previous Thought: </span>
-                  <u>{thought.previousSlug}</u>
-                </Link>
-              </div>
+               <div className="flex flex-col items-center text-center">
+               <span>Previous:</span>
+             <Link className="text-sm" href={`/thoughts/${thought.previousSlug}`}>
+               <u>{thought.previousTitle}</u>
+             </Link>
+           </div>
             )}
           </div>
           <div className="flex-1">
             {thought.nextSlug && (
-              <div className="text-right">
-                <Link href={`/thoughts/${thought.nextSlug}`}>
-                  <span>Next thought: </span>
-                  <u>{thought.nextSlug}</u>
+              <div className="flex flex-col items-center text-center">
+                  <span>Next:</span>
+                <Link className="text-sm" href={`/thoughts/${thought.nextSlug}`}>
+                  <u>{thought.nextTitle}</u>
                 </Link>
               </div>
             )}

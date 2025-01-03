@@ -1,7 +1,3 @@
-* {
-  color: black;
-}
-
 #react-markdown {
   /* Optionally, you can do something like a "reset" or base font: */
   @apply text-base leading-relaxed;

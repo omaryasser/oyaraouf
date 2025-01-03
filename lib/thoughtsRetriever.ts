@@ -9,7 +9,9 @@ export type Thought = {
   summary: string | null;
   content: string;
   type: string;
+  previousTitle: string | null;
   previousSlug: string | null;
+  nextTitle: string | null;
   nextSlug: string | null;
 };
 
@@ -39,7 +41,9 @@ export function getAllThoughts(): Thought[] {
     thoughts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     thoughts.map((thought, idx) => {
       thought.previousSlug = idx > 0 ? thoughts[idx - 1].slug : null;
+      thought.previousTitle = idx > 0 ? thoughts[idx - 1].title : null;
       thought.nextSlug = idx < thoughts.length - 1 ? thoughts[idx + 1].slug : null;
+      thought.nextTitle = idx < thoughts.length - 1 ? thoughts[idx + 1].title : null;
       return thought;
     });
     return thoughts;

@@ -30,7 +30,7 @@ export default function Footer() {
       </Head>
 
       <ToastContainer />
-      <div className=" relative max-w-3xl w-full p-8 pb-4 md:p-10 text-center text-white rounded-xl ">
+      <div className="relative max-w-3xl w-full p-8 pb-4 md:p-10 text-center text-white rounded-xl">
         <h2 className="text-3xl font-semibold">
           Let’s Stay Connected{" "}
           <span role="img" aria-label="Handshake">

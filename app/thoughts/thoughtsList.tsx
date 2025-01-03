@@ -18,13 +18,13 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
   };
 
   return (
-    <main className="mx-w bg-white text-black flex flex-col items-center">
+    <main className="mx-w bg-white py-8 text-black flex flex-col items-center">
       {/* Header section */}
-      <section className="flex w-full items-center bg-white p-8">
+      <section className="flex flex-col w-full items-center">
         <div className="relative w-20 h-20 flex-shrink-0">
           <Link href="/" passHref>
             <Image
-              src="favicon.png"
+              src="/favicon.png"
               alt="Omar's avatar"
               fill
               className="rounded-full object-cover"
@@ -32,20 +32,9 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
           </Link>
         </div>
 
-        <h2 className="flex-1 font-bold text-3xl text-center px-8 py-4">
-          Thoughts ☁
+        <h2 className="flex-1 font-bold text-2xl px-4 text-center  py-4">
+          Thoughts 💭
         </h2>
-
-        {/* Placeholder image on the right (hidden) to keep layout symmetrical */}
-        <div className="relative w-20 h-20 flex-shrink-0">
-          <Image
-            src="favicon.png"
-            alt="Omar's avatar"
-            fill
-            className="rounded-full object-cover"
-            hidden={true}
-          />
-        </div>
       </section>
 
       {/* List of thoughts */}
