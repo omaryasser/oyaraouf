@@ -55,15 +55,17 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
             key={thought.slug}
             className="p-4 max-w-5xl border-4 border-grey rounded-xl bg-white"
           >
-            <p className="text-center text-xs text-gray-600">{thought.date}</p>
-            <div className="flex items-center justify-center flex-row">
-            <div className="flex justify-center">
-              <span className="inline-block bg-blue-200 text-blue-800 text-xs font-semibold mx-4 px-2 py-1 rounded">
-                {thought.type}
-              </span>
+            <div className="flex items-center justify-center flex-row pb-4">
+              <div className="flex justify-center">
+                <span className="inline-block bg-blue-200 text-blue-800 text-xs font-semibold mx-4 px-2 py-1 rounded">
+                  {thought.type}
+                </span>
+              </div>
+              <p className="text-center text-xs text-gray-600">
+                {thought.date}
+              </p>
             </div>
             <h2 className="text-center text-xl font-bold">{thought.title}</h2>
-            </div>
 
             {thought.summary && (
               <div className="prose max-w-none mt-4 text-center">

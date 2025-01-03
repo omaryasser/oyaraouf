@@ -57,7 +57,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex flex-col bg-grey">
+      <body className="flex flex-col bg-grey text-black">
         <main>
           <AppRouterCacheProvider>
             {children}

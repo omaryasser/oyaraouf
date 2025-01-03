@@ -1,7 +1,7 @@
 ---
 title: "Resume Advices"
 date: "2024-10-01"
-summary: "The article talks about resume advices and tips for building an effective resume."
+summary: "The article provides advices and tips for building a resume."
 type: "Article"
 ---
 
