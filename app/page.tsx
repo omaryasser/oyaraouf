@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Typewriter from "./typewriter";
+import QuestionForm from "./questionForm";
 
 export default function Home() {
   return (
@@ -42,11 +43,7 @@ export default function Home() {
               engineering or anything else—if I know the answer, I'll do my best
               to share it with you!
             </p>
-            <Link href="/ask" passHref>
-              <button className="m-4 px-16 py-2 border border-white rounded hover:bg-white hover:text-black transition-colors">
-                Ask
-              </button>
-            </Link>
+            <QuestionForm />
           </div>
         </section>
 

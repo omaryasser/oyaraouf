@@ -60,7 +60,7 @@ Many companies use software to filter resumes in the screening phase. These syst
 
 ## Template
 
-View the template's code and how it looks at https://omaryasser.github.io/html-resume/resume.html.
+View a template and its HTML at https://github.com/omaryasser/html-resume.
 
 1. **Edit the Template**: Open the HTML template file and replace the information with your own details.
 

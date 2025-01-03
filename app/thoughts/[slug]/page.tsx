@@ -1,3 +1,5 @@
+// app/thoughts/[slug]/page.tsx
+
 import React from "react";
 import { getAllThoughts, getThoughtBySlug } from "@/lib/thoughtsRetriever";
 import ReactMarkdown from "react-markdown";
@@ -7,6 +9,7 @@ import rehypeSlug from "rehype-slug";
 import ShareButtons from "./shareButtons";
 import Link from "next/link";
 import Image from "next/image";
+import FeedbackForm from "./feedbackForm";
 
 import type { Metadata } from "next";
 
@@ -85,14 +88,15 @@ export default async function ThoughtDetailPage({
 }: ThoughtDetailPageProps) {
   const { slug } = await params;
   const thought = getThoughtBySlug(slug);
+
   if (!thought) {
     return <div className="text-center py-10">Thought not found.</div>;
   }
 
   return (
-    <main className="mx-w py-8 px-4 bg-white flex flex-col items-center">
-      <article className="max-w-3xl flex flex-col items-center">
-        <section className="flex flex-col w-full items-center bg-white">
+    <main className="max-w-3xl mx-auto py-8 px-4 bg-white flex flex-col items-center">
+      <article className="flex flex-col items-center w-full">
+        <section className="flex flex-col w-full items-center bg-white mb-6">
           <div className="relative w-20 h-20 flex-shrink-0">
             <Link href="/" passHref>
               <Image
@@ -104,15 +108,16 @@ export default async function ThoughtDetailPage({
             </Link>
           </div>
 
-          <h2 className="flex-1 font-bold text-2xl px-4 text-center  py-4">
+          <h1 className="flex-1 font-bold text-3xl px-4 text-center py-4">
             {thought.title}
-          </h2>
-
+          </h1>
         </section>
 
-        <p className="text-xs text-gray-600 mb-4 text-center">{thought.date}</p>
+        <p className="text-xs text-gray-600 mb-4 text-center">
+          {thought.date}
+        </p>
 
-        <div id="react-markdown" className="text-black prose max-w-none">
+        <div id="react-markdown" className="prose max-w-none text-black">
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             rehypePlugins={[rehypeSlug]}
@@ -120,32 +125,42 @@ export default async function ThoughtDetailPage({
             {thought.content}
           </ReactMarkdown>
         </div>
+
         <ShareButtons
           title={thought.title}
           summary={thought.summary}
           slug={thought.slug}
         />
-        <div className="max-w w-full flex flex-row">
-          <div className="flex-1">
-            {thought.previousSlug && (
-               <div className="flex flex-col items-center text-center">
-               <span>Previous:</span>
-             <Link className="text-sm" href={`/thoughts/${thought.previousSlug}`}>
-               <u>{thought.previousTitle}</u>
-             </Link>
-           </div>
-            )}
-          </div>
-          <div className="flex-1">
-            {thought.nextSlug && (
-              <div className="flex flex-col items-center text-center">
-                  <span>Next:</span>
-                <Link className="text-sm" href={`/thoughts/${thought.nextSlug}`}>
-                  <u>{thought.nextTitle}</u>
-                </Link>
-              </div>
-            )}
-          </div>
+
+        <FeedbackForm />
+
+        <div className="w-full flex flex-row justify-between mt-8">
+          {thought.previousSlug ? (
+            <div className="flex flex-col items-start">
+              <span className="text-sm">Previous:</span>
+              <Link
+                href={`/thoughts/${thought.previousSlug}`}
+                className="text-sm text-blue-500 hover:underline"
+              >
+                {thought.previousTitle}
+              </Link>
+            </div>
+          ) : (
+            <div></div>
+          )}
+          {thought.nextSlug ? (
+            <div className="flex flex-col items-end">
+              <span className="text-sm">Next:</span>
+              <Link
+                href={`/thoughts/${thought.nextSlug}`}
+                className="text-sm text-blue-500 hover:underline"
+              >
+                {thought.nextTitle}
+              </Link>
+            </div>
+          ) : (
+            <div></div>
+          )}
         </div>
       </article>
     </main>

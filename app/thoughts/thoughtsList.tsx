@@ -46,7 +46,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
           >
             <div className="flex items-center justify-center flex-row pb-4">
               <div className="flex justify-center">
-                <span className="inline-block bg-blue-200 text-blue-800 text-xs font-semibold mx-4 px-2 py-1 rounded">
+                <span className="inline-block bg-grey text-white text-xs font-semibold mx-4 px-2 py-1 rounded">
                   {thought.type}
                 </span>
               </div>
