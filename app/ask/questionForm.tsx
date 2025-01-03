@@ -67,12 +67,12 @@ export default function QuestionForm() {
   return (
     <div className="max-w">
       {/* Main content container */}
-      <main className="bg-white py-8 px-4 max-w w-full text-center">
+      <main className="bg-white  max-w w-full text-center">
         {/* Ask Me Anything section */}
-        <section className=" items-center bg-white text-black p-8">
+        <section className=" items-center bg-white text-black pt-4">
           <div className="flex flex-col items-center">
             <ToastContainer />
-            <p className="max-w-3xl">
+            <p className="max-w-3xl mb-2">
               Feel free to ask me anything! If I know the answer, I'll be happy
               to respond.
             </p>
@@ -85,7 +85,7 @@ export default function QuestionForm() {
               placeholder="Your question..."
             />
 
-            <p className="max-w-xl pt-4 px-4">
+            <p className="max-w-xl pt-4 px-4 mb-2">
               <b>Optionally</b>, if you want me to notify you when I post the
               answer (and for future updates), add your email here <b>or</b>{" "}
               check my social channels for updates.
