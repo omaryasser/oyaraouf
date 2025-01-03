@@ -97,7 +97,8 @@ export default function QuestionForm() {
 
               <form onSubmit={handleSubmit} className="flex flex-col">
                 <label htmlFor="feedback" className="mb-2">
-                  Your Question<span className="text-red-500">*</span>
+                  Feel free to ask me anything! If I know the answer, I'll be
+                  happy to respond.
                 </label>
                 <textarea
                   id="question"
@@ -111,7 +112,11 @@ export default function QuestionForm() {
                 />
 
                 <label htmlFor="question-email" className="mb-2">
-                  Your Email (optional)
+                  <p className="max-w-xl pt-4 px-4">
+                    <b>Optionally</b>, if you want me to notify you when I post
+                    the answer (and for future updates), add your email here{" "}
+                    <b>or</b> check my social channels for updates.
+                  </p>
                 </label>
                 <input
                   type="email"

@@ -1,14 +1,14 @@
 1:"$Sreact.fragment"
-2:I[5235,["711","static/chunks/8e1d74a4-56a67790d911c618.js","173","static/chunks/173-e418338df7346f20.js","352","static/chunks/352-f4ed5a9005621a57.js","533","static/chunks/533-9546c7d1dd0c0e71.js","177","static/chunks/app/layout-c5b7bedaec848ae8.js"],"default"]
+2:I[5235,["711","static/chunks/8e1d74a4-56a67790d911c618.js","173","static/chunks/173-e418338df7346f20.js","110","static/chunks/110-ca12a6efde8b66f7.js","111","static/chunks/111-c1432775620f3471.js","177","static/chunks/app/layout-8c0b4c1c4d32ad97.js"],"default"]
 3:I[5244,[],""]
 4:I[3866,[],""]
-5:I[6476,["711","static/chunks/8e1d74a4-56a67790d911c618.js","173","static/chunks/173-e418338df7346f20.js","352","static/chunks/352-f4ed5a9005621a57.js","533","static/chunks/533-9546c7d1dd0c0e71.js","177","static/chunks/app/layout-c5b7bedaec848ae8.js"],"default"]
+5:I[6476,["711","static/chunks/8e1d74a4-56a67790d911c618.js","173","static/chunks/173-e418338df7346f20.js","110","static/chunks/110-ca12a6efde8b66f7.js","111","static/chunks/111-c1432775620f3471.js","177","static/chunks/app/layout-8c0b4c1c4d32ad97.js"],"default"]
 6:I[2180,["173","static/chunks/173-e418338df7346f20.js","970","static/chunks/970-06134a474b70c8fa.js","914","static/chunks/914-402aff79bab00ef8.js","401","static/chunks/app/thoughts/page-eab369323a8f812b.js"],"default"]
-8:I[6213,[],"OutletBoundary"]
-a:I[6213,[],"MetadataBoundary"]
-c:I[6213,[],"ViewportBoundary"]
-e:I[4835,[],""]
-:HL["/_next/static/css/35127d033d8b9767.css","style"]
+f:I[6213,[],"OutletBoundary"]
+11:I[6213,[],"MetadataBoundary"]
+13:I[6213,[],"ViewportBoundary"]
+15:I[4835,[],""]
+:HL["/_next/static/css/420b87bfd084f86c.css","style"]
 7:T128e,
 
 ## Table of contents
@@ -78,7 +78,371 @@ View a template and its HTML at https://github.com/omaryasser/html-resume.
    - Set the layout and margins as desired, then save the file as a PDF.
 
 This will give you a polished PDF version of the template with your custom information.
-0:{"P":null,"b":"n5tR0QauirEtaVvn3hkiO","p":"","c":["","thoughts"],"i":false,"f":[[["",{"children":["thoughts",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/35127d033d8b9767.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"flex flex-col bg-grey text-black","children":[["$","main",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}],["$","$L5",null,{}]]}]}]]}],{"children":["thoughts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","thoughts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L6",null,{"thoughts":[{"slug":"resume-advices","title":"Resume Advices","date":"2024-10-01","summary":"The article provides advices and tips for building a resume.","type":"Article","content":"$7","previousSlug":null,"previousTitle":null,"nextSlug":"they-need-help-but-no-time","nextTitle":"They Need Help But We Don't Have Time"},{"slug":"they-need-help-but-no-time","title":"They Need Help But We Don't Have Time","date":"2024-09-01","summary":null,"type":"Post","content":"\nلو انت من اللي بقالهم سنة بيقنعوا نفسهم انهم معندهمش اللي يساعدوا بيه إخواتهم في فلسطين أو السودان أو غيرهم فرجاء إعادة النظر في وقتك ومالك وعلمك وجهدك مبذولين في ايه وليه وهل فعلا طريقة بذلهم تتماشى مع أهدافك الرئيسية في الحياة ولا لا لان صعب سنة كاملة منعرفش نخصص فيها جزء ثابت ولو صغير جدا من وقتنا او مالنا او جهدنا او علمنا أو نوايانا للمساعدة الا لو كان اللي بيحصل مش في قائمة أولوياتنا. \n\n&nbsp;\n\nHave you been willing to help the Palestinians/Sudanese/Others but have been convincing yourself, for the last year or more, that you're too busy to contribute? It's time to reconsider whether you are using your knowledge or spending your time, energy, and money in a way that aligns with your deepest values. One year is too long.","previousSlug":"resume-advices","previousTitle":"Resume Advices","nextSlug":null,"nextTitle":null}]}],null,["$","$L8",null,{"children":"$L9"}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","_B8VVdi4J8PQDNzIq_RZY",{"children":[["$","$La",null,{"children":"$Lb"}],["$","$Lc",null,{"children":"$Ld"}],null]}]]}],false]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}
-d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-b:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Omar Yasser Morsi - Personal Website"}],["$","meta","2",{"name":"description","content":"Personal website of Omar Yasser Morsi. Ask me anything about software engineering, career, and life. Read articles, answers, and posts."}],["$","meta","3",{"name":"author","content":"Omar Yasser Morsi"}],["$","meta","4",{"name":"keywords","content":"Omar Yasser Morsi,software engineering,Q&A,articles,answers,posts,career"}],["$","meta","5",{"name":"creator","content":"Omar Yasser Morsi"}],["$","meta","6",{"name":"publisher","content":"Omar Yasser Morsi"}],["$","meta","7",{"property":"og:title","content":"Omar Yasser Morsi - Personal Website"}],["$","meta","8",{"property":"og:description","content":"Ask me anything about software engineering, read articles, answers, and posts by Omar Yasser Morsi."}],["$","meta","9",{"property":"og:url","content":"https://oyaraouf.com"}],["$","meta","10",{"property":"og:site_name","content":"oyaraouf.com"}],["$","meta","11",{"property":"og:image","content":"https://oyaraouf.com/favicon.png"}],["$","meta","12",{"property":"og:image:width","content":"512"}],["$","meta","13",{"property":"og:image:height","content":"512"}],["$","meta","14",{"property":"og:image:alt","content":"Omar Yasser Morsi favicon"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:creator","content":"@oyaraouf"}],["$","meta","18",{"name":"twitter:title","content":"Omar Yasser Morsi - Personal Website"}],["$","meta","19",{"name":"twitter:description","content":"Ask me anything about software engineering, career, and life. Read articles, answers, and posts."}],["$","meta","20",{"name":"twitter:image","content":"https://oyaraouf.com/favicon.png"}],["$","link","21",{"rel":"icon","href":"/favicon.png"}]]
-9:null
+8:T873,
+Imagine the following scenario: The billing alerts of a software system start firing because of the unusually high money burn rate. That happened directly after a bad configuration was rolled out. That configuration changes the number of instances of the system from 10 to 100 needlessly.
+
+Now imagine two people are debugging the issue. The first one (Person A) found the bad configuration change and the second one (Person S) found that there are 90 new instances that were started recently. The conversation goes like this:
+
+A: I think I know the root cause.
+
+S: No, wait! I think I also found it. Look, these 90 instances were started shortly before the alert. We should just kill them.
+
+A: No, I think that will not actually fix the issue, that's just a symptom of the root cause. Even if we kill them now, another 90 will automatically run again because...
+
+S: Wait wait! Can I just ask you a simple question?
+
+A: Go ahead
+
+S: Are these 90 instances expected to be there?
+
+A: No, but...
+
+S: Then it's simple, let's just kill them.
+
+A: But that will not solve the problem because...
+
+S: Wait! It's a very simple yes or no question that we can simply base decisions on. Do we expect these instances to be there?!! Yes or No!
+
+A: Well, I know where your question is going and I want to explain to you before answering because it's going on the wrong dire...
+
+S: I can't believe how hard it is to answer such a very simple yes/no question, come on!!
+
+A: Well, it's not hard at all but you are asking the wrong question that will mislead you and your team and you also keep interrupting me before I explain to you the complete picture. I need first to explain to you the pipeline that starts these instances and tell you that...
+
+S: I asked 100 other people before you and they all agree that these instances shouldn't be up, why is it so hard for you to acknowledge that too?
+
+A: Do you want to solve the root cause or do you want us to spend our lives killing instances?
+
+S: These instances are the root cause. I am the one who's not really sure that you want to solve the problem because, for some reason, you keep running away from a super simple question.
+9:Td4e,
+My dear colleagues from all over the world, I think what's currently going on in the world is a prime opportunity for everyone to reevaluate their perspectives on fundamental life questions they once thought settled. Taking this seriously can be a life changer for many.
+
+For a very long time in my life, I have been primarily influenced by the information and the points of view that I hear from my colleagues, my teachers, popular newspapers, popular TV channels, popular influencers, etc. The moment I genuinely engaged with an opposing perspective straight **from the mouth of the one** who held it, was a pivotal point in my life.
+
+It's clear to everyone that money and power can acquire both tangible and intangible resources. It's also clear that it's very often that money and power can, and sometimes legally, buy resources that harm society. Information is one of the most, if not the most, valuable resources in the current era. It's not hard to understand that people with money and power might want to acquire and propagate information that serves their interests. This enforcement can get as large as influencing a whole education system. Our minds may be trapped in one of the prisons built by one of the powerful information prison builders.
+
+The following are some suggestions in the form of simple steps that I believe can help us get out of our mind prisons.
+
+𝐒𝐭𝐞𝐩 1: Decide on a controversial topic. Please note that by controversial here, I mean, controversial considering the whole world's point of view on it and not just within your family, city, or country.
+
+𝐒𝐭𝐞𝐩 2: Arrive at a clear personal stance. We have been living for a while and every one of us has consumed an amount of information about history, religion, politics, etc.. We studied some in school, we read some in newspapers or books, and we talked about some with our friends and colleagues. Sit alone, organize your thoughts, and arrive at a clear personal stance on the controversial topic. If you find that you can't then that means that you are 100% ready to escape your mind prisons and proceed to the next step. If you arrive at a personal stance, then you are either right or in a mind prison, also proceed to the next step.
+
+𝐒𝐭𝐞𝐩 3: Honestly explore the opposing point of view. This one requires significant discipline to avoid confirmation bias. The following are some suggestions about how to do this exploration:
+
+Search on search engines, streaming services, and social media explicitly with the opposing point of view.
+
+Search for hashtags that are promoted by the adopters of the opposing point of view.
+
+If the opposing point of view is spoken in a foreign language that you can't speak, then find written material and translate it. Find articles, posts, and posts in these languages and everything can be translated, even transcribed, with a couple of clicks today.
+
+Read about the matter in newspapers that you have never read before.
+
+If your discipline is high enough, you can also search for a book that most of the adopters of the opposing point of view recommended.
+
+𝐒𝐭𝐞𝐩 4: The result. I promise you, if you have never done this before, you will be astonished by the findings. You might end up with the same stance but you will still be astonished by the amount of facts that were intentionally hidden and the ones that were fabricated for you.
+
+a:T13b1,
+*Disclaimer: I have been working since ~ 2020. As I gain more experience, I will refine and edit my advice accordingly.*
+
+## Learn vs Earn
+If you can afford it, when you are comparing job offers, give more weight to the learning than the earning aspect. By the learning aspect, I mean the job in which you will learn more. By the earning aspect, I mean the job in which you will get a higher salary.
+
+The difference in salary that you are compromising at the beginning is incomparable to the difference in salary between an experienced 10-year-experience employee and an inexperienced 10-year-experience employee. Not all seniors are experienced and not all experienced seniors are on the same level of experience and will be offered the same salary.
+
+If you find a job that has both, then that's perfect.
+
+## Technical Mentorship
+Try to work in a team in which there's an experienced technical senior(s) that will be accessible to you. Note, again, that not every senior is experienced and humble enough to teach you. If you work with these experienced and humble people, they will radically shorten your paths.
+
+Try to do some research about the team and the people you will be working with and what the juniors working with them think of them.
+
+## Career Mentorship
+Try to work in a team whose manager is experienced and humble enough to guide you.
+
+A good manager will help keep you happy with what you do.
+A good manager will help provide a safe environment for you to learn and ask freely.
+A good manager will help in guiding you on what is the best next career step for you depending on what you are good at and what you are passionate about.
+A good manager will shield you from a lot of managerial bureaucracies that would otherwise absorb a lot of your energy that should be better spent on learning and doing.
+A good manager will balance between what will benefit you as a person and what will benefit the business.
+
+## Don't Rush Promoting
+Don't stress yourself to climb the promotion ladder more quickly than you need. Don't put that as the ultimate goal. Putting it as the ultimate goal can lead to you taking the wrong decisions whether technical, ethical, or long-term career decisions.
+
+Put learning and using what you learned in the good as your absolute goal and let the promotion come naturally when it's obvious how skilled you are. If you are in a team with a good manager, they will make this part much easier for you and you will feel no need to fight for it.
+
+And remember that everything has limits; so at some point of injustice, this advice will not be applicable and you will have to fight for it.
+
+## Ask
+It's hard for me to imagine that there's any senior employee that will answer "no" when asked whether they expect the juniors to ask questions or not.
+
+Everyone is expecting you to ask questions at this point. There's indeed a limit and a strategy of when to ask questions as you need to choose a suitable time and you need to do some effort to find the answer yourself first.
+
+Remember that the more time you spend on the job the less you will be expected to ask questions and the more you will be expected to answer so use this early time wisely.
+
+## Work-life Balance
+As early as possible, try to get used to balancing your life and work, or otherwise, you might discover a little late that you spent more time working in your life than you wanted to.
+
+Fix the number of hours that you don't want to exceed while working in a week. 
+
+Maintain the time you devote to learning about your religion.
+Maintain your family time.
+Maintain sports time.
+Maintain time in which you read things you like even if they are not work-related.
+Maintain time to meditate and relax.
+etc...
+
+You don't have to be the quickest person to climb the promotion ladder to have a happy life. 
+
+## Learning Time
+I'd suggest maintaining some time out of work to learn more about your profession. You will not always have the chance to explore or learn about everything in your profession as it will not always be required to do the immediate job you are doing.
+
+This knowledge can help you to avoid overfitting your knowledge on what the current job/product/system you are working on and will open the way for you to work in other areas/companies/systems.
+
+## Soft Skills
+Although technical skills are super important, soft skills are also very useful. Learn from the people around you how they talk, convince others, approach problems, talk about their work, provide feedback, present, etc...
+
+And of course, measure everything you learn against your values before adopting it.
+
+## Habits
+Try to get used to good working habits that suit you as early as possible. As with any other thing in life, it's hard to change habits the more you are used to them. 
+
+Not all habits are suitable for everyone but some habits that I found useful for me are:
+
+Fixing the time in which I start and end of my working hours.
+Getting used to a healthy sitting posture.
+Fix the time in which I eat and pray so that I don't miss them on a busy day. b:T129a,
+Positive feedback is nice and important but I find criticism or constructive feedback is even more important. Criticism can help you with all of the following:
+
+* **Things you know.** There are things that you know you can improve, but with criticism, you will better prioritize what's more urgent to be improved than others given the amount of time it is mentioned to you.
+* **Things you know you don't know.** There are things you know that you need to improve but you don't know how. A person who is willing to tell you what to improve will likely be also willing to tell you how to improve it.
+* **Things you don't know that you don't know.** The most insightful outcome of constructive feedback is when someone mentions something you need to improve but you weren't aware of it (e.g. "I noticed that you repeated the word X a lot through the presentation and that decreased my focus, I even found myself counting them unconsciously").
+
+In this short article, I will mention some tips that can help you receive more constructive feedback from others.
+
+## 1. Ask Explicitly for it
+Sometimes it is not enough to ask for "feedback". More people will tend to give give you constructive feedback if you ask explicitly for it because then they will know that you are willing to accept it. For example, say "What do you think I could have done better in X?" rather than saying "What do you think of my work in X?".
+
+## 2. Make it safe to be Criticized
+When you really want constructive feedback, make it clear that you are willing to hear it because you really want to develop. Some people would choose to not spend energy arguing with you about something you could have **done better** without any benefit that they will receive. But when they feel that you are willing to hear and that you will not consume their energy while arguing, they will be more open to giving you feedback. 
+
+## 3. Be Specific
+There are some genius people who you can benefit from but they are not good at generating constructive feedback. It helps them a lot when you are specific about what you want to get feedback on.
+
+For example, instead of saying: *"Please tell me what could I have done better in project X?"*, say: *"Please tell me how different would you have implemented the project if you were to implement it from scratch?"* or say: *"Please tell me how would you have designed this component of the system?"*, or say: *"Please tell me what do you think I can do for better communication in the code review process (e.g. being more responsive, acting more to feedback)?"*.
+
+## 4. Give Time for Preparation
+Some people are not good at generating feedback in real-time. For those people, if you give them a hint that you will be asking about things you can improve in the next meeting or if you ask them offline, they will give you more pieces of advice.
+
+## 5. Get it from the Ones Who Don't Like You
+Not everyone who doesn't like you is envying you or is hating success for you, although some people are.
+
+Some of the ones who don't like you have reasons related to things that you could have done better. So if you get those people to speak, they will tell you some hidden gems about some improvements you can make.
+
+Even if the feedback you got wasn't useful, this interaction will release some of the stress between you.
+
+## 6. Ask for it Regularly
+People forget; especially when it's not related to themselves. So if person P knew that you could have done something better today, they will probably forget about it after a month. This also decreases the chance of someone whom you care about how they see your work, suddenly overwhelming you with tons of things you could have done better. These are times in which we say "If only they told us earlier, we could have improved it before it's too late."
+
+## 7. Don't Get Defensive
+If you are sure that the feedback is inaccurate, then no need to justify yourself or to argue. It's beneficial to drop arguing here in the trade of making it more likely in the future to get feedback from the same person because otherwise, they may think twice next time before giving you feedback.
+
+Ask clarifying questions if there's something that you really want to understand (i.e. not something that you are not convinced with).
+
+---
+
+**An important note**: In my opinion, it's fine that with some specific people of some specific personalities in some situations, we'd be asking for criticism not primarily for the sake of improvement but for the sake of regularly making sure that our expectations are aligned because otherwise, we know that these people will use such feedback against us if we don't justify ourselves. In such cases, it's more beneficial to argue and explain ourselves if we think that the feedback is inaccurate.
+
+c:T40e,
+Sometimes we tend to measure our accomplishments by the quantity (of books, courses, certificates, etc..) and not quality. That leaves us with way little overall knowledge than what we could have acquired.
+Pay attention to the following 5 points.
+
+1. Time is limited so acknowledge that it is not possible to finish every single resource on one topic in any field. So choose your resources wisely.
+
+2. Always question the percentage that you absorbed from a resource after finishing it. Finishing a book/course in 1 week but absorbing 90% of it is much better than finishing a book/course in 1 day but absorbing only 5% of.
+
+3. Summarize and take notes. This will help you easily revisit and revise the most important takeaways that you have learned.
+
+4. Time spent rereading/rewatching what you don't understand is not wasted but actually well invested.
+
+5. Don't learn passively. I may write another full post on how important is this point, but mainly try to use what you learn, invent something new using it or explain it to others.
+d:T2a2e,
+## What is it about?
+In this article, I will discuss what I think Google interviewers are looking for and why I think they would be looking for those skills.
+
+
+## What isn't it about?
+I will give some tips about how to demonstrate the skills but the article **is not** mainly about that. That's because **the first step** towards demonstrating these skills is to be aware that they are needed. The second step is practicing them a lot. The last step is to know some tricks of how to demonstrate them when you already have them. I will be focusing here mainly on the first step.
+
+The article is mainly focused on coding interviews and not system design or Googlyness.
+
+*The advice in this article is purely my opinion, from my experience with interviewing in Google, and what I myself would like to see as an interviewer.*
+
+## Skills
+I will explain each skill they are looking for as well as why they are looking for it.
+
+### Communication Skills
+<u>What are they looking for?</u>
+
+I think that Google interviewers would be looking for candidates with good communication skills. Those are candidates who ...
+
+can be understood during the interview
+are good at explaining their thoughts out loud
+care to explain their thoughts out loud (it's different from the one above)
+comprehend what the interviewer says quickly
+
+Try to practice communicating your thoughts clearly when solving problems. That is hard to maintain when the solution is not straightforward and you need to think deeply about it. Here comes the role of practicing. You need to practice communicating your thinking process even when 1) the solution is not easily explainable and 2) even when you still don't know the solution and still exploring different ideas.
+
+That's also super useful because then the interviewer may give you relevant hints, or explain the problem better, and guide you to the right solution.
+
+Practice it by doing mock interviews with your friends and experienced people.
+
+<u>Why are they looking for it?</u>
+
+That is one important skill that is needed in a company with the scale of Google, in which you will always find yourself dealing with different people and often from different teams daily. In Google, you'd also find that the problems being solved aren't simple. So, it is important to have people who can discuss and communicate different and sometimes complex solutions and their tradeoffs.
+
+In the end, people would want to hire people they'd love working with and wouldn't have trouble communicating with.
+
+## Clean, readable & extensible code
+<u>What are they looking for?</u>
+
+I think that Google interviewers would be looking for candidates who can write bug-free, readable, and extensible code.
+
+**By readable** I mean that it is easy for someone other than you to read and understand the code. This can be achieved by the following:
+
+Choose clear and descriptive names for functions and variables used.
+Keep the functions small and single-purposed. This means that you'd need to implement more functions, which is good. It is easier to debug and spot the error in small, modularized, and single-purposed functions than debugging larger ones. So extract related functionality into its own function.
+Add comments for logic that is not straightforward to be understood.
+Balance the trade between readability and efficiency. In such cases, it is best to discuss it with the interviewer after demonstrating to them that you see both options and you see the tradeoff (e.g. "I think that the most efficient way to implement that is X. It will not be the most readable and simple way to implement it. But, we can also implement it in Y which is not significantly less efficient but is significantly more readable and simpler, which one do you prefer?").
+
+**By extensible** I mean how easy it is to extend your implementation to handle different use cases. That's very tricky because to some extent generalizing will cause a waste of your time in solving a harder problem than the one you have. Interestingly, to another extent, narrowing down your solution to only satisfy the given problem may cause a waste of your time while trying to implement the solution for a follow-up question. So how to know? Ask the interviewer about their preferences (e.g. "I know that in this problem we are just handling two car types, so I can just quickly represent that using a boolean, but I can also create an enum so that it is easy to extend the solution, what do you prefer?")
+
+<u>Why are they looking for it?</u>
+
+In Google, people work on a massively huge code base read by thousands of people. Also, people sometimes contribute to code written by other teams and a lot of times would need to read code maintained and written by other teams. People also change teams. So a readable code is not a luxury anymore, otherwise, the development of the products will be much slower with people taking more time to understand and more time to touch the code without introducing bugs and more time to find bugs when reported.
+
+Teams would also be asked to implement more features (sometimes not previously anticipated) in their code after producing it to users to act on their feedback. So it's important to learn the balance of to what extent to write extensible code.
+
+Most of Google's products have many users, so it's rare for a code path to not be regularly exercised by users, so bugs will be triggered and will annoy users quickly. So it's important to have the skill to write bug-free code and to catch bugs quickly both in a code you wrote or a code someone else wrote (i.e. when you are reviewing a teammate's code for example).
+
+## Attention to Detail
+<u>What are they looking for?</u>
+
+I think that Google interviewers would be looking for candidates who are attentive to details. By that, I mean the following skills.
+
+**Confirming the problem and its constraints.** Before you start writing code or finding solutions, you need to make sure that you understand the problem correctly. Those are aspects like the following:
+
+* How large is the input? How small can it be?
+* In what format and data structure will the input be given?
+* Can the special case X be encountered in the input?
+* What is the expected way of handling the special case Y?
+
+**Keeping track of ideas and todos.** Try to write down (if it will not waste a lot of time) your ideas in detail. Whenever you are postponing the implementation of some function or postponing thinking about a specific use case, write it down as a to-do comment. Also, when you have an assumption or an expectation about the input or the output, write it down as a comment.
+
+**Validating the solution and its implementation.** After explaining a solution as well as after implementing it. It's better that you find the problem with it before the interviewer points it out. You'd only be able to do that if you are good at validating your ideas. People tend to be biased towards the correctness of their ideas and implementations so they are often not able to spot the problem. After explaining the solution, try to make sure that it will work on a simple test case and thoroughly trace it on the simple test case. Then start to think about the corner cases that will make your solution fail. Do the same thing after implementing to spot bugs with your code before your interviewer does. This skill like all other skills mentioned in this article comes with practice.
+
+**Troubleshooting your implementation.** Let's say the interviewer has spotted a bug in your code and they pointed it out. Figuring the problem out quickly is a plus for you. Try to exercise your code without any bias towards its correctness.
+
+<u>Why are they looking for it?</u>
+
+Interviewers don't want to hire people who would end up wasting time implementing or designing a solution for different problems than the one they were given. They want to hire people who would anticipate and ask for possible use cases that may lead to a drastic change in the design of the solution from the beginning so that they don't waste time rearchitecting their solution after a few new features or corner cases.
+
+As mentioned above, in Google, it is usual to use and depend on code written and maintained by other teams, so being clear about the expected usage of your code and the expected output saves others' times and denies issues earlier.
+
+Interviewers want to hire people who can validate their ideas on their own before wasting others' time validating for them. It's the same for implementation, interviewers want to hire people who would produce a high-quality code without huge assistance from others.
+
+Troubleshooting is a very important skill when working in a huge code base and large-scale products as it is not about debugging a single function, class, or file anymore. It's a huge stack and someone who is not used to catching their bugs on their own may waste others' time to figure out the problems for them. So when you are practicing, and you write a code that is not passing the test cases; invest time in figuring out the problem yourself.
+
+## Data Structures and Algorithms Skills
+<u>What are they looking for?</u>
+
+I think that Google interviewers would be looking for candidates who have good data structures knowledge and good algorithmic skills.
+
+By that I mean, the following.
+
+* Choosing a data structure that would efficiently handle the specific use case and type of data presented to them.
+* Explaining and implementing efficient algorithms to solve the problem. Start with explaining the easiest and less efficient first and then explain the more efficient ones.
+* Analyzing the time and space complexities of the different solutions.
+
+<u>Why are they looking for it?</u>
+
+As said above, in Google, most probably, all of the code paths of your implementation will be exercised by your users and they will be exercised a lot. That's why people who know how to use the right data structure and who know the tradeoffs of different approaches and can analyze and spot them can save a lot of resources for the company and can offer better and more efficient products to customers.
+
+# Feedback Acceptance
+<u>What are they looking for?</u>
+
+I think that Google interviewers would be looking for candidates who accept and appreciate feedback. By that, I mean the attitude after receiving feedback or a hint. Also how you will benefit from and put that feedback into action.
+
+<u>Why are they looking for it?</u>
+
+People want to work with others who appreciate their feedback. That makes you comfortable because it will be easy to point the other person to things they can improve or things that bother you. People also don't want to work with others who are very opinionated and hardly consider ideas other than their own or hardly accept someone else spotting their mistakes.e:T2e73,
+*Note that it has been a while since I was heavily involved in practicing, so the resources I'll mention might have been superseded already. However, I believe the technique will still be relevant.*
+
+## Resources 
+I started by reading [The Competitive Programming book](https://cpbook.net/) and solving its [UVa](https://onlinejudge.org/) exercises. It was a little bit challenging to find solutions for some of UVa's questions, so here are some of my [solutions](https://github.com/omaryasser/Competitive-Programming/tree/master). The second book I read was [The Art of Problem Solving](https://www.goodreads.com/book/show/2872282-the-art-of-problem-solving-volume-1).
+
+In parallel, I was participating in rounds from various online judges: Codeforces, Topcoder, CS Academy, AtCoder, Hackerrank, Hackerearth, Google Code Jam, Google Kickstart, Facebook's Hackercup, and Catalyst's Coding Competitions.
+
+One of the most useful resources for you will be the resources that you develop and maintain while practicing. Be organized and save the important tricks, and information that you learn while practicing because you will need to revise them and you will need to get back to them when you are stuck in a similar problem. One example is to maintain a sheet for the most insightful (and only the most insightful so that it doesn't end up being full of noise and useless) problems you solved and what you learned from them, take a look at [my problem sheet](https://docs.google.com/spreadsheets/d/1YrILZI60DWqHNAiQvXHXG9Ul_pO4QvHdTFUuDYsuvuo/edit?gid=1081187993#gid=1081187993).
+
+In my last year of practicing, I started contributing to the this curriculum and I believe that there is a significant effort put into it and that it is still well-maintained. Thanks to Ahmed Elsagheer for this amazing initiative.
+
+## Technique 
+The technique that I will advise for is to make sure that you are touching all of the following dimensions.
+
+### 1. Topic-oriented Practicing 
+To be able to solve more difficult and deep problems, you need different tools in your pocket. Basically, different Algorithms and Data Structures in this case. So your plan has to always include new algorithms and data structures that you are learning and practicing. By practicing, I mean that once you learn a new algorithm or a new data structure, you need to solve easy, medium, and hard problems using it. You need to make sure that it's not just a new tool in your pocket, but a new tool that you can really use. Just knowing the algorithm is not enough at all. By just knowing and memorizing the algorithm, you will just be able to solve straightforward problems using it. That's not helpful. You need to understand the algorithm and its variants deep enough to be able to tweak it and use for different use cases. Not just that, sometimes you will need it to solve a subproblem of the bigger problem so using it needs to come naturally to your mind by recognizing the patterns and the use cases that it comes in handy with. It's like practicing different chess plans. Will you iterate over all the chess plans you memorized in the middle of a game? It won't work, they will only come naturally to your mind after using them a lot.
+
+### 2. Topic-agnostic Practicing
+You don't want to overfit your brain on knowing the tool needed for the problem before being able to use it. That's where the role of general problem-solving practice comes. I used the online judges I mentioned above for this purpose. Note that you don't want to finish all easy problems in an online judge before starting to practice on medium and hard ones. If you just kept solving easy problems, you will be quite fast in solving the easiest problem in the contest and your mind won't help you in going deep enough to solve the harder ones.
+
+### 3. Online Competitions Participation 
+You need to join online competitions and not just keep solving offline problems. Handling time and standings pressure in online competitions is an important key to getting high rankings. You might have already heard about strong problem solvers who do only underperform in online competitions. One important technique that helped me survive is to compete with myself instead of competing with others. Only monitor your progress and just learn from others.
+
+### 4. Practicing Different Styles of Competitions
+Don't stick with only one online judge or one flavor of competitions. Codeforces problems style is very different from the ICPC style. Contests with long and complicated statements are different from the ones that tell you the problem in a straightforward manner Three-hour contests are different from five-hours contests. Individual contests are different from team contests. Participate in and solve problems from different sources. You can't practice for 100m runs and expect to perform in 1500m runs.
+
+## Tips & Advice
+### Do it if you enjoy it 
+If you don't enjoy problem-solving, then you will be torturing yourself by doing all this. Just find another way. Imagine someone who hates running but needs to practice it twice a day to be a champion. If I didn't enjoy it, I would have definitely lost hope and got desperate after my [first couple of participations](https://codeforces.com/profile/Omar_Morsi) and if I kept trying then I would have been wasting time. Computer science has an abundance of interesting paths, don't limit yourself. One good litmus test is whether you'd consider practicing after graduating. By now I know a lot of people who haven't achieved much in competitive programming but flourished in other tracks.
+
+### Be patient, it takes time
+Don’t expect to be able to solve hard problems quickly after one day or one week or one month of consistent practice. One doesn't go to the Gym and find themselves carrying the heaviest weights in the first month. Be ready for a lot of failures and the inability to solve a lot of problems. That's when you will learn. Whatever your level is, you should be investing time in trying to understand and solve problems that are not easy for you, so if you don't enjoy and embrace the complexity, you will suffer. That’s mainly because if at any point everything you are studying or trying to solve is easy for you then most probably you are not benefiting from that so much.
+
+I imagine it as a neural network. When I first started practicing, I would have never ever imagined the complex problems that one day I will be able to solve. These complex problems I am talking about are super simple for another more experienced competitive programmer. So why can’t my brain just solve more difficult problems? It is not just knowledge. It is how deep can your mind keep exploring different approaches, and how many subproblems can your mind handle at once. This comes with practice. Your mind is capable of thinking in a complexity that you can’t even believe, but it needs practicing. 
+
+### Be consistent
+Consistently practice. One of the common traits you can find among highly-rated competitive programmers is consistency. I am talking about the daily amount of time they dedicate to competitive programming. That’s not a competitive-programming-specific tip. That’s something you should do to reach a high skill level of anything because usually it can’t be achieved in a short time and without consistency, you will not have the chance to build knowledge and train your mind. So dedicate a daily amount of time to practicing. Start with an hour or two and increase that every week.
+
+### Be brave and continue a plan
+Don’t keep jumping between different plans. That’s super important and that’s one problem that I found a lot of people doing. That's mainly because it is easier and more satisfying to keep taking the easy part of every plan and solve more problems. 
+
+One of the things that makes people like playing games is that games bring a sense of achievement quickly after every level, we as humans love that feeling. So what most of the people who fail do, is they start a plan, and have fun at the beginning because it is always super easy like every start of every semester. When it is super easy, one can have a lot of achievements in a short time, whenever it starts to get harder they start a new plan. Don’t do that.
+
+The time invested in picking the right plan for you is a time that is really well invested. So invest enough time picking the right plan and stick with it! To be honest with you, a huge amount of plans will just work the secret is in completing them and in being patient.
+
+### Find the room in which you are the most stupid
+At the same time as you are practicing, working hard, and getting better and better, try to strive for finding rooms in which you will be the most stupid person. Not by pretending to be stupid, but by founding people who are smarter and more experienced than you. That’s something that helped me a lot. It was like a catalyst for me in my competitive programming journey. Surrounding myself with people who are much more smart and experienced than me, helped me develop my skills quickly. There is an abundance of those people, but you need to seek them.
+
+### Don't depend on others
+One problem that I find a lot of people falling into is depending on one or a group of friends to study together and to motivate each other. Studying with one another occasionally is amazing and motivating one another is even better but you should never be depending on that. Try to drive and motivate yourself and others.
+
+### Avoid unhealthy comparisons
+Don’t keep comparing yourself to others. Compare yourself only to yourself. Keep monitoring your progress. A lot of people will disagree with me on this point and they will say that this is competitive programming. I am not saying that they are wrong, but that just wouldn’t have worked with me for hundreds of reasons. For me, the competitive part of the word is about competing with myself and being a better version of myself. Let’s acknowledge that there will always be people better than you and let’s acknowledge that you will find them near you and if you don’t, then believe me you are not in the right place.
+
+### Help others
+If you avoid comparing yourself to others, it will make it easier for you to wish them success. It will make it easier for you to help them. Helping others is super important for tons of reasons.
+
+* Building a competitive programming community won’t be achieved unless people are helping each other. Communities boost skill development dramatically because of the motivation and the ability to share knowledge it brings.
+* By helping others, you will have a much more rigid and reliable knowledge. Because sometimes you may memorize something and not understand it well enough and solve some problems with it but you will always be feeling uncomfortable using it. But can you do that if you will explain it to others? probably, no. No one wants to look like a fool. You will find yourself preparing well enough and deeply understanding the topic before explaining it to others. Also, after explaining it to others you will gain confidence in your understanding which is super important.
+* It is always so much easier to find people to help you if you help others.
+
+### Be organized
+You will learn tons of algorithms and you will see huge amounts of solutions, tips, and tricks, and you will solve or try to solve a lot of problems. I can assure you that if you are not organized and you are not having an index or a reference for the highlights you will blame yourself later while searching for something you have already learned or met before.
+
+## Don't neglect academic studies
+Don't sacrifice investing time in your theoretical academic studies for competitive programming. Those are very important foundations that will help you distinguish in your future practical life.
+
+*Good luck and reach out if I can help 😉*0:{"P":null,"b":"_Fhr2SMqR1Hz3Pkfv7cux","p":"","c":["","thoughts"],"i":false,"f":[[["",{"children":["thoughts",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/420b87bfd084f86c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"flex flex-col bg-grey text-black","children":[["$","main",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}],["$","$L5",null,{}]]}]}]]}],{"children":["thoughts",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","thoughts","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L6",null,{"thoughts":[{"slug":"resume-advices","title":"Resume Advices","date":"2024-10-01","summary":"The article provides advices and tips for building a resume.","type":"Article","content":"$7","previousSlug":null,"previousTitle":null,"nextSlug":"they-need-help-but-no-time","nextTitle":"محتاجينلنا بس احنا مش فاضيين | They Need Us But We Have No Time"},{"slug":"they-need-help-but-no-time","title":"محتاجينلنا بس احنا مش فاضيين | They Need Us But We Have No Time","date":"2024-09-01","summary":null,"type":"Post","content":"\nلو انت من اللي بقالهم سنة بيقنعوا نفسهم انهم معندهمش اللي يساعدوا بيه إخواتهم في فلسطين أو السودان أو غيرهم فرجاء إعادة النظر في وقتك ومالك وعلمك وجهدك مبذولين في ايه وليه وهل فعلا طريقة بذلهم تتماشى مع أهدافك الرئيسية في الحياة ولا لا لان صعب سنة كاملة منعرفش نخصص فيها جزء ثابت ولو صغير جدا من وقتنا او مالنا او جهدنا او علمنا أو نوايانا للمساعدة الا لو كان اللي بيحصل مش في قائمة أولوياتنا. \n\n&nbsp;\n\nHave you been willing to help the Palestinians/Sudanese/Others but have been convincing yourself, for the last year or more, that you're too busy to contribute? It's time to reconsider whether you are using your knowledge or spending your time, energy, and money in a way that aligns with your deepest values. One year is too long.","previousSlug":"resume-advices","previousTitle":"Resume Advices","nextSlug":"stupidity-of-insisting-on-wrong-questions","nextTitle":"The Stupidity of Insisting on the Wrong Questions"},{"slug":"stupidity-of-insisting-on-wrong-questions","title":"The Stupidity of Insisting on the Wrong Questions","date":"2024-01-07","summary":null,"type":"Post","content":"$8","previousSlug":"they-need-help-but-no-time","previousTitle":"محتاجينلنا بس احنا مش فاضيين | They Need Us But We Have No Time","nextSlug":"escape-mind-prisons","nextTitle":"Great Opportunity for Escaping Mind Prisons"},{"slug":"escape-mind-prisons","title":"Great Opportunity for Escaping Mind Prisons","date":"2023-10-15","summary":"The article explains tactics for reaching the truth despite how power and money are shaping most of the information and opinions these days.","type":"Article","content":"$9","previousSlug":"stupidity-of-insisting-on-wrong-questions","previousTitle":"The Stupidity of Insisting on the Wrong Questions","nextSlug":"your-first-working-year","nextTitle":"Your First Working Year"},{"slug":"your-first-working-year","title":"Your First Working Year","date":"2023-05-29","summary":"This article covers a couple of things to consider when you are ready to work after graduating","type":"Article","content":"$a","previousSlug":"escape-mind-prisons","previousTitle":"Great Opportunity for Escaping Mind Prisons","nextSlug":"ask-for-critisism","nextTitle":"Ask Explicitly for Criticism"},{"slug":"ask-for-critisism","title":"Ask Explicitly for Criticism","date":"2023-05-07","summary":"This article discusses the significance of feedback and provides guidance on how to obtain it.","type":"Article","content":"$b","previousSlug":"your-first-working-year","previousTitle":"Your First Working Year","nextSlug":"stop-focusing-on-quantity","nextTitle":"Stop Focusing on Quantity"},{"slug":"stop-focusing-on-quantity","title":"Stop Focusing on Quantity","date":"2023-05-07","summary":null,"type":"Post","content":"$c","previousSlug":"ask-for-critisism","previousTitle":"Ask Explicitly for Criticism","nextSlug":"be-the-stupidest-in-room","nextTitle":"Be the Stupidest in the Room"},{"slug":"be-the-stupidest-in-room","title":"Be the Stupidest in the Room","date":"2023-02-01","summary":null,"type":"Post","content":"\nOne of the most effective catalysts for growth is to push yourself to rooms in which you are the least smart or experienced person.\n\nThese are the rooms in which you will learn a lot from others and realize how far from perfect you are. This realization will push you to work on yourself and seek more knowledge.\n\nI truly feel in the right place when I am the least smart/experienced person in the room.\n","previousSlug":"stop-focusing-on-quantity","previousTitle":"Stop Focusing on Quantity","nextSlug":"google-coding-interviews","nextTitle":"Google Coding Interviews | What are they looking for and why?"},{"slug":"google-coding-interviews","title":"Google Coding Interviews | What are they looking for and why?","date":"2022-08-07","summary":"In this article, I will discuss what I think Google interviewers are looking for and why I think they would be looking for those skills.","type":"Article","content":"$d","previousSlug":"be-the-stupidest-in-room","previousTitle":"Be the Stupidest in the Room","nextSlug":"competitive-programming-tips","nextTitle":"Competitive Programming | Resources, Technique & Tips"},{"slug":"competitive-programming-tips","title":"Competitive Programming | Resources, Technique & Tips","date":"2022-07-26","summary":"I spent 3.5 years intensively preparing for competitive programming contests. While the time invested is just one aspect, this article offers advice on how to make the most of that time.","type":"Article","content":"$e","previousSlug":"google-coding-interviews","previousTitle":"Google Coding Interviews | What are they looking for and why?","nextSlug":null,"nextTitle":null}]}],null,["$","$Lf",null,{"children":"$L10"}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","UTzcoO8fYJWvsdREKeVbY",{"children":[["$","$L11",null,{"children":"$L12"}],["$","$L13",null,{"children":"$L14"}],null]}]]}],false]],"m":"$undefined","G":["$15","$undefined"],"s":false,"S":true}
+14:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Omar Yasser Morsi - Personal Website"}],["$","meta","2",{"name":"description","content":"Personal website of Omar Yasser Morsi. Ask me anything about software engineering, career, and life. Read articles, answers, and posts."}],["$","meta","3",{"name":"author","content":"Omar Yasser Morsi"}],["$","meta","4",{"name":"keywords","content":"Omar Yasser Morsi,software engineering,Q&A,articles,answers,posts,career"}],["$","meta","5",{"name":"creator","content":"Omar Yasser Morsi"}],["$","meta","6",{"name":"publisher","content":"Omar Yasser Morsi"}],["$","meta","7",{"property":"og:title","content":"Omar Yasser Morsi - Personal Website"}],["$","meta","8",{"property":"og:description","content":"Ask me anything about software engineering, read articles, answers, and posts by Omar Yasser Morsi."}],["$","meta","9",{"property":"og:url","content":"https://oyaraouf.com"}],["$","meta","10",{"property":"og:site_name","content":"oyaraouf.com"}],["$","meta","11",{"property":"og:image","content":"https://oyaraouf.com/favicon.png"}],["$","meta","12",{"property":"og:image:width","content":"512"}],["$","meta","13",{"property":"og:image:height","content":"512"}],["$","meta","14",{"property":"og:image:alt","content":"Omar Yasser Morsi favicon"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:creator","content":"@oyaraouf"}],["$","meta","18",{"name":"twitter:title","content":"Omar Yasser Morsi - Personal Website"}],["$","meta","19",{"name":"twitter:description","content":"Ask me anything about software engineering, career, and life. Read articles, answers, and posts."}],["$","meta","20",{"name":"twitter:image","content":"https://oyaraouf.com/favicon.png"}],["$","link","21",{"rel":"icon","href":"/favicon.png"}]]
+10:null

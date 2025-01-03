@@ -6,6 +6,7 @@ import ReactMarkdown from "react-markdown";
 import "./markdown.css";
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
+import rehypeRaw from 'rehype-raw'
 import ShareButtons from "./shareButtons";
 import Link from "next/link";
 import Image from "next/image";
@@ -120,7 +121,7 @@ export default async function ThoughtDetailPage({
         <div id="react-markdown" className="prose max-w-none text-black">
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeSlug]}
+            rehypePlugins={[rehypeRaw]}
           >
             {thought.content}
           </ReactMarkdown>
@@ -136,11 +137,11 @@ export default async function ThoughtDetailPage({
 
         <div className="w-full flex flex-row justify-between mt-8">
           {thought.previousSlug ? (
-            <div className="flex flex-col items-start">
-              <span className="text-sm">Previous:</span>
+            <div className="flex flex-1 flex-col items-center">
+              <span className="text-sm text-center">Previous</span>
               <Link
                 href={`/thoughts/${thought.previousSlug}`}
-                className="text-sm text-blue-500 hover:underline"
+                className="text-sm text-blue-500 hover:underline text-center"
               >
                 {thought.previousTitle}
               </Link>
@@ -149,11 +150,11 @@ export default async function ThoughtDetailPage({
             <div></div>
           )}
           {thought.nextSlug ? (
-            <div className="flex flex-col items-end">
-              <span className="text-sm">Next:</span>
+            <div className="flex flex-1 flex-col items-center">
+              <span className="text-sm">Next</span>
               <Link
                 href={`/thoughts/${thought.nextSlug}`}
-                className="text-sm text-blue-500 hover:underline"
+                className="text-sm text-blue-500 hover:underline text-center"
               >
                 {thought.nextTitle}
               </Link>

@@ -1,5 +1,5 @@
 ---
-title: "They Need Help But We Don't Have Time"
+title: "محتاجينلنا بس احنا مش فاضيين | They Need Us But We Have No Time"
 date: "2024-09-01"
 type: "Post"
 ---
