@@ -6,10 +6,13 @@ import { ToastContainer, toast } from "react-toastify";
 import Head from "next/head";
 import Script from "next/script";
 import "./mailchimp.css";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const pathname = usePathname();
+
   return (
-    <footer className=" flex justify-center  ">
+    <footer className=" flex flex-col justify-center items-center">
       <Head>
         <link
           href="//cdn-images.mailchimp.com/embedcode/classic-061523.css"
@@ -27,7 +30,7 @@ export default function Footer() {
       </Head>
 
       <ToastContainer />
-      <div className=" relative max-w-3xl w-full p-8 md:p-10 text-center text-white rounded-xl ">
+      <div className=" relative max-w-3xl w-full p-8 pb-4 md:p-10 text-center text-white rounded-xl ">
         <h2 className="text-3xl font-semibold">
           Let’s Stay Connected{" "}
           <span role="img" aria-label="Handshake">
@@ -59,6 +62,7 @@ export default function Footer() {
         </div>
 
         <div
+          className="pt-4"
           dangerouslySetInnerHTML={{
             __html: `
           <div id="mc_embed_signup">
@@ -126,8 +130,12 @@ export default function Footer() {
           var $mcj = jQuery.noConflict(true);
         `}
         </Script>
-
       </div>
+      {pathname == "/" && (
+        <Link className="text-white mb-4 w-full pl-8" href="/privacy" passHref>
+          Privacy Policy
+        </Link>
+      )}
     </footer>
   );
 }
