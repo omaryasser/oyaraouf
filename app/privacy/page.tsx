@@ -53,23 +53,37 @@ export default function PrivacyPage() {
   return (
     <div className="min-h-screen bg-white text-black px-4 py-8 sm:px-6 lg:px-8">
       {/* Header Section */}
-      <header className="flex items-center justify-between mb-8">
-        <div className="flex items-center">
-          <Link href="/">
+      <section className="flex w-full items-center bg-white p-8">
+        <div className="relative w-20 h-20 flex-shrink-0">
+          <Link href="/" passHref>
             <Image
-              src="/favicon.png"
+              src="favicon.png"
               alt="Omar's avatar"
-              width={50}
-              height={50}
+              fill
               className="rounded-full object-cover"
             />
           </Link>
-          <h1 className="ml-4 text-3xl font-bold">Privacy Policy</h1>
         </div>
-      </header>
+
+        <h2 className="flex-1 font-bold text-3xl text-center px-8 py-4">
+          Privacy Policy
+        </h2>
+
+        {/* Placeholder image on the right (hidden) to keep layout symmetrical */}
+        <div className="relative w-20 h-20 flex-shrink-0">
+          <Image
+            src="favicon.png"
+            alt="Omar's avatar"
+            fill
+            className="rounded-full object-cover"
+            hidden={true}
+          />
+        </div>
+      </section>
+
 
       {/* Content Section */}
-      <main className="max-w-3xl mx-auto">
+      <main className="space-y-4 max-w-3xl pb-8 px-8">
         <section className="mb-6">
           <p className="mb-4">
             Welcome to <strong>oyaraouf.com</strong>. I am committed to
