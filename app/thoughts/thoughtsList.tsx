@@ -55,19 +55,24 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
               </p>
             </div>
             <h2 className="text-center text-xl font-bold">{thought.title}</h2>
-
-            {thought.summary && (
-              <div className="prose max-w-none mt-4 text-center">
-                <ReactMarkdown>{thought.summary}</ReactMarkdown>
+            <div className="flex flex-row items-center justify-between max-w">
+              {thought.summary && (
+                <div className="prose max-w-none text-lg mt-4 mr-4 text-left">
+                  <ReactMarkdown>{thought.summary}</ReactMarkdown>
+                </div>
+              )}
+              {!thought.summary && (
+                <div className="prose max-w-none mt-4 text-lg mr-4 text-left">
+                  {thought.content.substring(0, 100) + "..."}
+                </div>
+              )}
+              <div className="mt-4 max-w justify-self-end	">
+                <Link className=" max-w" href={`/thoughts/${thought.slug}`}>
+                  <button className="mt-2 px-4 py-2 border border-grey rounded hover:bg-grey hover:text-white transition-colors">
+                    Read
+                  </button>
+                </Link>
               </div>
-            )}
-
-            <div className="mt-4 max-w flex flex-row items-center justify-center">
-              <Link className=" max-w" href={`/thoughts/${thought.slug}`}>
-                <button className="mt-2 px-16 py-2 border border-grey rounded hover:bg-grey hover:text-white transition-colors">
-                  Read
-                </button>
-              </Link>
             </div>
           </article>
         ))}

@@ -2,7 +2,7 @@
 title: "Your First Working Year"
 date: "2023-05-29"
 type: "Article"
-summary: "This article covers a couple of things to consider when you are ready to work after graduating"
+summary: "This article covers a couple of things to consider when you are ready to work after graduating."
 ---
 
 *Disclaimer: I have been working since ~ 2020. As I gain more experience, I will refine and edit my advice accordingly.*
