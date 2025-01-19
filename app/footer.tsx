@@ -45,7 +45,7 @@ export default function Footer() {
         </blockquote>
 
         <p className="text-lg">
-          Save my links if you are interested in my updates subscribe to my
+          Save my links if you are interested in my updates or subscribe to my
           mailing list to receive collective updates:
         </p>
 
