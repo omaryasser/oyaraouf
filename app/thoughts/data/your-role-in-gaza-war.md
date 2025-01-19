@@ -1,6 +1,6 @@
 ---
 title: "Your Role in Gaza War"
-date: "2024-01-19"
+date: "2025-01-19"
 type: "Post"
 ---
 
