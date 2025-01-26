@@ -1,6 +1,6 @@
 ---
 title: "Will AI Kill Competitive Programming?"
-date: "2024-01-26"
+date: "2025-01-26"
 type: "Answer"
 ---
 
