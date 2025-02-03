@@ -12,10 +12,20 @@ type ThoughtsListingProps = {
 
 export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
   const [visibleCount, setVisibleCount] = useState(5);
+  const [filter, setFilter] = useState("");
 
   const showMore = () => {
     setVisibleCount((prev) => prev + 5);
   };
+
+  const handleFilter = (type: string) => {
+    setFilter(type);
+    setVisibleCount(5);
+  };
+
+  const filteredThoughts = thoughts.filter(
+    (thought) => filter === "" || thought.type === filter
+  );
 
   return (
     <main className="mx-w bg-white py-8 text-black flex flex-col items-center">
@@ -37,9 +47,45 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
         </h2>
       </section>
 
+      {/* Filter buttons */}
+      <div className="flex justify-center space-x-4 mb-4">
+        <button
+          className={`px-4 py-2 border border-grey rounded ${
+            filter === "" ? "bg-grey text-white" : ""
+          }`}
+          onClick={() => handleFilter("")}
+        >
+          All
+        </button>
+        <button
+          className={`px-4 py-2 border border-grey rounded ${
+            filter === "Article" ? "bg-grey text-white" : ""
+          }`}
+          onClick={() => handleFilter("Article")}
+        >
+          Articles
+        </button>
+        <button
+          className={`px-4 py-2 border border-grey rounded ${
+            filter === "Post" ? "bg-grey text-white" : ""
+          }`}
+          onClick={() => handleFilter("Post")}
+        >
+          Posts
+        </button>
+        <button
+          className={`px-4 py-2 border border-grey rounded ${
+            filter === "Answer" ? "bg-grey text-white" : ""
+          }`}
+          onClick={() => handleFilter("Answer")}
+        >
+          Answers
+        </button>
+      </div>
+
       {/* List of thoughts */}
       <div className="space-y-4 max-w-3xl pb-8 px-8">
-        {thoughts.slice(0, visibleCount).map((thought) => (
+        {filteredThoughts.slice(0, visibleCount).map((thought) => (
           <article
             key={thought.slug}
             className="p-4 max-w-5xl border-4 border-grey rounded-xl bg-white"
@@ -77,7 +123,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
           </article>
         ))}
       </div>
-      {visibleCount < thoughts.length && (
+      {visibleCount < filteredThoughts.length && (
         <div className="m-4">
           <button
             onClick={showMore}
