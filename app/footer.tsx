@@ -76,7 +76,7 @@ export default function Footer() {
             >
               <div id="mc_embed_signup_scroll">
 
-                <div class="mc-field-group"><label id="mce-email-label" for="mce-email">Email Address</label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+                <div class="mc-field-group"><label id="mce-email-label" for="mce-email">Email Address</label><input type="email" name="EMAIL" class="required email" id="mce-email" required="" value=""></div>
                 <div id="mce-responses" class="clear foot">
                   <div class="response" id="mce-error-response" style="display: none;"></div>
                   <div class="response" id="mce-success-response" style="display: none;"></div>
