@@ -74,9 +74,8 @@ export default function QuestionForm() {
             <ToastContainer />
             <p className="max-w-3xl mb-2">
               Feel free to ask me anything! If I know the answer, I'll be happy
-              to respond.
+              to post it on one of my social channels.
             </p>
-
             <textarea
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
@@ -87,7 +86,7 @@ export default function QuestionForm() {
 
             <p className="max-w-xl pt-4 px-4 mb-2">
               <b>Optionally</b>, if you want me to notify you when I post the
-              answer (and for future updates), add your email here <b>or</b>{" "}
+              answer (and for future updates), enter your email here. Otherwise,
               check my social channels for updates.
             </p>
 
