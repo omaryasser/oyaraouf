@@ -71,6 +71,7 @@ Try to get used to good working habits that suit you as early as possible. As wi
 
 Not all habits are suitable for everyone but some habits that I found useful for me are:
 
-Fixing the time in which I start and end of my working hours.
-Getting used to a healthy sitting posture.
-Fix the time in which I eat and pray so that I don't miss them on a busy day. 
+* Maintain a document in which you record everything you do. This will make it easy for you to advocate for your work and performance ratings.
+* Fixing the time in which I start and end of my working hours.
+* Getting used to a healthy sitting posture.
+* Fix the time in which I eat and pray so that I don't miss them on a busy day. 
