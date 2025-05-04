@@ -1,5 +1,3 @@
-// app/thoughts/[slug]/page.tsx
-
 import React from "react";
 import { getAllThoughts, getThoughtBySlug } from "@/lib/thoughtsRetriever";
 import ReactMarkdown from "react-markdown";
@@ -11,7 +9,6 @@ import ShareButtons from "./shareButtons";
 import Link from "next/link";
 import Image from "next/image";
 import FeedbackForm from "./feedbackForm";
-
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
@@ -93,7 +90,6 @@ export default async function ThoughtDetailPage({
   if (!thought) {
     return <div className="text-center py-10">Thought not found.</div>;
   }
-
   return (
     <main className="max-w-3xl mx-auto py-8 px-4 bg-white flex flex-col items-center">
       <article className="flex flex-col items-center w-full">
@@ -118,6 +114,22 @@ export default async function ThoughtDetailPage({
           {thought.date}
         </p>
 
+
+        {thought.translate && (
+          <div className="flex justify-center">
+            <a
+              href={`https://translate.google.com/translate?sl=ar&tl=en&u=${encodeURIComponent(
+                `https://oyaraouf.com/thoughts/${thought.slug}`
+              )}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="m-4 px-8 py-2 border border-grey bg-white rounded hover:bg-grey hover:text-white transition-colors"
+            >
+              Translate to English
+            </a>
+          </div>
+        )}
+
         <div id="react-markdown" className="prose max-w-none text-black">
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
@@ -134,6 +146,7 @@ export default async function ThoughtDetailPage({
         />
 
         <FeedbackForm />
+
 
         <div className="w-full flex flex-row justify-between mt-8">
           {thought.previousSlug ? (

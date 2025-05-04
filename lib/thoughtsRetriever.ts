@@ -7,6 +7,7 @@ export type Thought = {
   title: string;
   date: string;
   summary: string | null;
+  translate: boolean | null;
   content: string;
   type: string;
   previousTitle: string | null;
@@ -34,6 +35,7 @@ export function getAllThoughts(): Thought[] {
         title: data.title ?? 'Untitled Thought',
         date: data.date ?? 'No Date',
         summary: data.summary ?? null,
+        translate: data.translate ?? null,
         type: data.type ?? 'No type',
         content,
       } as Thought;
