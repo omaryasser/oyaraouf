@@ -4,12 +4,14 @@ import ReactMarkdown from "react-markdown";
 import "./markdown.css";
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
-import rehypeRaw from 'rehype-raw'
+import rehypeRaw from "rehype-raw";
 import ShareButtons from "./shareButtons";
 import Link from "next/link";
 import Image from "next/image";
 import FeedbackForm from "./feedbackForm";
 import type { Metadata } from "next";
+import TranslateButton from "./translateButton";
+import { Suspense } from "react";
 
 export async function generateStaticParams() {
   const thoughts = getAllThoughts();
@@ -110,24 +112,12 @@ export default async function ThoughtDetailPage({
           </h1>
         </section>
 
-        <p className="text-xs text-gray-600 mb-4 text-center">
-          {thought.date}
-        </p>
-
+        <p className="text-xs text-gray-600 mb-4 text-center">{thought.date}</p>
 
         {thought.translate && (
-          <div className="flex justify-center">
-            <a
-              href={`https://translate.google.com/translate?sl=ar&tl=en&u=${encodeURIComponent(
-                `https://oyaraouf.com/thoughts/${thought.slug}`
-              )}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="m-4 px-8 py-2 border border-grey bg-white rounded hover:bg-grey hover:text-white transition-colors"
-            >
-              Translate to English
-            </a>
-          </div>
+          <Suspense>
+            <TranslateButton slug={thought.slug}></TranslateButton>
+          </Suspense>
         )}
 
         <div id="react-markdown" className="prose max-w-none text-black">
@@ -146,7 +136,6 @@ export default async function ThoughtDetailPage({
         />
 
         <FeedbackForm />
-
 
         <div className="w-full flex flex-row justify-between mt-8">
           {thought.previousSlug ? (
