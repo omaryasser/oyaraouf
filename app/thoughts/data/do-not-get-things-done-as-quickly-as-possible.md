@@ -1,57 +1,57 @@
 ---
-title: "Don't always get things done as quickly as possible!"
+title: "Don't Always Get Things Done as Quickly as Possible!"
 date: "2025-05-05"
 type: "Article"
-summary: "This article discusses the balance between getting things done as quickly as possible vs using learning opportunities that may slow you down."
----
-
-This article discusses the balance between getting things done as quickly as possible vs using learning opportunities that may slow you down
+summary: "This article looks at balancing getting things done quickly with investing in learning opportunities, even if it slows you down."
 
 ---
 
-The following are two extreme attitudes that you'd need to avoid and you'd need to have a healthy balance between them:
+This article looks at balancing getting things done quickly with investing in learning opportunities, even if it slows you down.
 
-** The Getting Things Done Attitude)**
-- Whenever I get assigned a project, I try to get it done as fast as possible.
-- I'd trust and apply every piece of guidance I get from more senior folks right away.
-- I'd not spend time questioning the usefulness or reasons behind that project.
-- I'd not spend time learning something unrelated to the project before delivering it, even if it is something related to my current domain and may be useful in future projects.
+---
 
-**The long-term investor attitude**
-- When I get assigned a project, I try to learn every piece of information about it, about its history, about similar done projects.
-- When I get assigned a project, I try to think about different ways of approaching it and I reach out to more senior folks to ask about reasons they went with this approach before starting working on it.
-- Whenever I am stuck, I will spend as long as it takes to get unblocked by myself.
-- Whenever I need to use a project dependency (e.g. third-party library, another team's API), I make sure I spend enough time to fully understand how the dependency works, how it is designed, and how it was developed.
+Below are two extreme attitudes to avoid and the healthy balance you should aim for:
 
-Some general advices:
-- In general, the getting things done attitude brings more short-term wins. The long term investor attitude brings more long-term wins. You need both types of wins. The less you'd have the getting things done attitude, the more you are risking project delivery deadlines and performance impressions.
-- The more junior you are the more you'd need to be near the getting things done extreme side of the gradient.
--  The more senior you are, the more you'd need to be near the long-term investor extreme side of the gradient
-- Whatever your level of seniority is, there's a perfect balance long-term vs short-term opportunity cost you can achieve.
+## Extreme Getting Things Done Attitude
+- When I’m assigned a project, I try to finish it as quickly as possible.  
+- I never question and I immediately apply every piece of guidance I get from more senior colleagues.  
+- I don’t spend time questioning the usefulness or purpose of my assigned projects.  
+- I don’t learn anything unrelated to the project before delivering it, even if it’s in my domain and could help in the future.
 
-The following are some examples of different tasks. In each, I will give an example of both extremes and a good healthy balance (for a junior engineer) on how to approach them, from my opinion:
+## Extreme Long-Term Investor Attitude
+- When I’m assigned a project, I research its background, history, and similar completed projects.  
+- I consider different approaches and ask senior colleagues why they recommended a particular method before starting.  
+- Whenever I’m stuck, I spend as long as necessary to unblock myself by myself.  
+- Before using any dependency (e.g., a third-party library or another team’s API), I make sure I dig deep into it to fully understand its design and implementation.
 
-Example #1: I need to find the command that can show me X in Linux.
-* Extreme getting things done attitude: I remember commands A, B, and C that I can use together to achive this. I'll use that.
-* Extreme long-term investor attitude: I know A, B, and C but let me check what would the LLM chat bot recommends. Nice they recommended I can use D and E. Let me check on Stackoverflow. Oh, there's a debate around whether D+E is better because it aligns more with Unix philosophy or using F right away. Let me check whether there are articles debating that on Reddit or other forums. I will also ask my team about their opinion.
-* Balanced approach for a junior: I remember commands A, B, and C works but let me quickly double-check if there's something else I don't know. Oh the LLM chat bot mentioned D and E. I never knew about them. I learned something new. I will use D and E for now and the more senior reviewer will let me know if there's an even better approach.
+### Some General Advice
+- The “Extreme Getting Things Done” attitude yields more short-term wins, while the “Extreme Long-Term Investor” attitude yields more long-term gains. You need both.
+- If you lean too much towards "Extreme Getting Things Done" attitude, you risk investing in long-term growth opportunities and you will be mostly steered by your assigned projects.
+- If you lean too much toward “Extreme Long-Term Investor” attitude you risk missing deadlines and damaging your performance reputation.
+- The more junior you are, the closer you should stay to the “Extreme Getting Things Done” end of the spectrum but you still shouldn't be at the end of it.
+- The more senior you are, the more you'd have to lean toward the ““Extreme Long-Term Investor” end.
+- At any level, strive for the right balance between short-term delivery and long-term learning.
+
+---
+
+Below are examples of how a junior engineer might balance these attitudes:
 
 
-Example #2: My TL mentioned that I need to depend on team T's API to implement that building block of my project.
-* Extreme getting things done attitude: Let me check what API endpoints they support. Endpoint E1 won't work, E2 won't work, but E3 will. I will use it and will skip checking what other endpoints they offer.
-* Extreme long-term investor attitude: Let me check what other APIs exist that does something similar. Nothing looks promising, I will use team T's API then. Let me see all endpoints they offer. E5 is an interesting endpoint, how did they implement it and which storage engine did they use. For my project, I will use endpoint E4. Let me check which endpoint did others use when they needed to do something similar. Oh someone used endpoint E6 instead. Let me try to analyze which one will provide better performance.
-* Balanced approach for a junior: Let me check all related API endpoints they support. The best two are E4 and E6. Their documentation and implementation looks very complicated, let me ask someone with more knowledge about them which one is better to use. My TL mentioned that E6 is better for our case because of reason R. Nice, I learned something new, I will use E6.
+### Example 2: Using a Team’s API
+- **Extreme “Getting Things Done”:** I scan the API, find that E3 works, and stop there.  
+- **Extreme “Long-Term Investor”:** I compare similar APIs, study all team T’s endpoints (including E5), analyze performance trade-offs, and review others’ choices.  
+- **Balanced Approach:** I review all relevant endpoints—E4 and E6 look best. Their docs are complex, so I ask a senior colleague. My tech lead confirms E6 is ideal for reason R. I learned something new and will use E6.
 
-Example #3: I got assigned a task to fix the bug in function F.
-* Extreme getting things done attitude: Fixes the mentioned bug in the function. Makes sure the tests reflects the fix. Marks the task done.
-* Extreme long-term investor attitude: Tries to understand why the buggy use case matters and how does the user ends needing to use the product that way. Reproduces the bug themselves and try to find other bugs in the feature. Spends time understanding the function and the class. Finds a line in another function not following the best practices, so spends time in rewriting it, testing it, and sending a pull request for it. Goes back to the buggy function. Rewrites it. Double-checks if others have written simila rlogic differently soemwhere in the codebase. Writes tests, and marks task done.
-* Balanced attitude for a junior: Understands how does the function fits in the class and what does the class do. Skims through the class and finds a standard library function that he never seen before. Checks the documentation of what it does. Goes back to the buggy function,  Debugs and finds the issue with the current code, Fixes the bug, writes the test, and marks the task done
+### Example 3: Fixing a Bug in Function F
+- **Extreme “Getting Things Done”:** I fix the bug, update the tests, and mark it done.  
+- **Extreme “Long-Term Investor”:** I investigate why the bug matters to users, reproduce it, audit related code for best-practice violations, rewrite multiple functions, add tests, and then finish.  
+- **Balanced Approach:** I understand where F fits in its class, notice an unfamiliar standard-library function and read its docs, debug and fix the bug, write a test, and mark the task done.
 
-Example #4: I need to debug a problem with a feature.
-* Extreme getting things done attitude: I'll try to find the code related to this feature. I'll try to read it quickly may I spot the issue. I found something that doesn't look in its place. I will remove it and try. The issue isn't fixed. May be that other line of code that looks complicated. I'll change it and retry. The bug doesn't show up. Mark fixed.
-* Extreme long-term investor approach: It's the first bug I am seeing in this codebase. However, I need to know what's the best debugger people use to debug issues in this codebase. The debugger looks better on IDE X, I'll start learning and using it. Looks like the issue is in the logic of this function. However, I want first to understand how is this class structured and why it is implemented that way, etc..
-* Balanced approach: I will check what are the possible ways people debug these issues. Looks like I can just do it by checking the code and adding some logs when needed. Given that I rarely need to work in this codebase, I will not spend time installing and learning how to use its debugger and try to get around with faster methods, but good that I knew about this debugger for the future.
+### Example 4: Debugging a Feature
+- **Extreme “Getting Things Done”:** I skim the code, make quick edits until the bug vanishes, and then close the task.  
+- **Extreme “Long-Term Investor”:** I research the best debugger for this codebase, learn a new IDE, study the class structure in depth, then debug.  
+- **Balanced Approach:** I identify available debugging methods—code inspection and logging—skip the time investment in a new debugger for now, and remind myself to explore it later.
 
-It's definitely not an exact science and the prior examples are just to deliver my opinion. You might find yourself in one of those situations with a different balanced approach based on how much you invested in your last project, how much left until the deadline of this project and many other factors.
+---
 
-The main idea is to keep in mind both attitudes and to not let yourself stick to only one of them in the expense of the other.
+It’s not an exact science, and these examples reflect just one perspective. Your “balanced” approach may vary depending on your experience, deadlines, and project context. The key is to remain aware of both attitudes and avoid leaning exclusively on one at the expense of the other.
