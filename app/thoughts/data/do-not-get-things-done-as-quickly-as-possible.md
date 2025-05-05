@@ -36,15 +36,17 @@ Below are two extreme attitudes to avoid and the healthy balance you should aim 
 ## Examples
 The following are some examples of different tasks. In each, I give an example of both extremes and a healthy balance (for a junior engineer) on how to approach them, in my opinion:
 
-**Example #1: You need to find the command that can do X in Linux.**  
+**Example #1: Your TL mentioned that you need to depend on team T’s API to implement a building block of your project.**  
+* **Extreme getting‑things‑done attitude:** Let me check which API endpoints they support. E1 won’t work, E2 won’t work, but E3 will. You decide to use E3 and skip checking the others.  
+* **Extreme long‑term‑investor attitude:** Let me check what other APIs exist that do something similar. Nothing looks promising, so you’ll use team T’s API. Now, let me review all their endpoints. E5 is interesting—how did they implement it, and which storage engine do they use? For your project, you’ll use E4. Let me see which endpoints others used for similar tasks. Oh—someone used E6 instead. Let me analyse which one will provide better performance.
+* **Balanced approach for a junior:** Let me review all relevant endpoints. The best two are E4 and E6. Their documentation and implementations look complex, so you’ll ask someone more knowledgeable which one to use. Your TL says E6 is better for your case because of reason R. You’ve learned something new—you’ll use E6.
+ 
+**Example #2: You need to find the command that can do X in Linux.**  
 * **Extreme getting‑things‑done attitude:** You remember commands A, B, and C that you can use together to achieve this. You’ll use those.  
 * **Extreme long‑term‑investor attitude:** You know A, B, and C, but let me check what the LLM chatbot recommends. Nice—they suggest you can use D and E. Let me check Stack Overflow. Oh, there’s a debate about whether D+E is better because it aligns more with the Unix philosophy, or whether you should use F right away. Let me see if there are articles debating that on Reddit or other forums. You’ll also ask your team for their opinion.  
 * **Balanced approach for a junior:** You remember that A, B, and C work, but you’ll quickly double‑check if there’s something else you don’t know. Oh—the chatbot mentioned D and E, which you’d never heard of. You’ve learned something new anyway. You’ll use D and E for now, and your senior reviewer can let you know if there’s an even better approach.
 
-**Example #2: Your TL mentioned that you need to depend on team T’s API to implement a building block of your project.**  
-* **Extreme getting‑things‑done attitude:** Let me check which API endpoints they support. E1 won’t work, E2 won’t work, but E3 will. You decide to use E3 and skip checking the others.  
-* **Extreme long‑term‑investor attitude:** Let me check what other APIs exist that do something similar. Nothing looks promising, so you’ll use team T’s API. Now, let me review all their endpoints. E5 is interesting—how did they implement it, and which storage engine do they use? For your project, you’ll use E4. Let me see which endpoints others used for similar tasks. Oh—someone used E6 instead. Let me analyse which one will provide better performance.
-* **Balanced approach for a junior:** Let me review all relevant endpoints. The best two are E4 and E6. Their documentation and implementations look complex, so you’ll ask someone more knowledgeable which one to use. Your TL says E6 is better for your case because of reason R. You’ve learned something new—you’ll use E6.
+
 
 **Example #3: You got assigned a task to fix the bug in function F.**  
 * **Extreme getting‑things‑done attitude:** Rewrite the function, update the tests to reflect the fix, and mark the task done.  
