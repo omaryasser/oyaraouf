@@ -1,5 +1,5 @@
 ---
-title: "Don't Always Get Things Done as Quickly as Possible!"
+title: "Don't Always Get Things Done as Quickly as You Can!"
 date: "2025-05-05"
 type: "Article"
 summary: "This article looks at balancing getting things done quickly with investing in learning opportunities, even if it slows you down."
