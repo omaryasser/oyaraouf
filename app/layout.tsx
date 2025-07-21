@@ -56,9 +56,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="flex flex-col bg-grey text-black">
-        <main>
+    <html lang="en" className="scroll-smooth">
+      <body className="min-h-screen flex flex-col bg-white text-gray-900 antialiased">
+        <main className="flex-1">
           <AppRouterCacheProvider>
             {children}
           </AppRouterCacheProvider>
