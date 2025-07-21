@@ -109,13 +109,8 @@ export default async function ThoughtDetailPage({
           </div>
 
           <div className="mb-6">
-            <span className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold mb-4 ${
-              thought.type === 'Article' ? 'bg-blue-100 text-blue-800' :
-              thought.type === 'Post' ? 'bg-green-100 text-green-800' :
-              thought.type === 'Answer' ? 'bg-purple-100 text-purple-800' :
-              'bg-gray-100 text-gray-800'
-            }`}>
-              {thought.type === 'Article' ? '📚' : thought.type === 'Post' ? '✍️' : thought.type === 'Answer' ? '💡' : '📄'} {thought.type}
+            <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold mb-4 bg-gray-100 text-gray-800">
+              {thought.type}
             </span>
           </div>
 

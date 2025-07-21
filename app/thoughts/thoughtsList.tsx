@@ -19,13 +19,33 @@ function getCleanPreview(content: string, maxLength: number = 150): string {
   // Remove markdown frontmatter if it exists
   const withoutFrontmatter = withoutTags.replace(/^---[\s\S]*?---\s*/, '');
   
-  // Trim whitespace and normalize spaces
-  const trimmed = withoutFrontmatter.trim().replace(/\s+/g, ' ');
+  // Remove markdown syntax
+  let cleaned = withoutFrontmatter
+    // Remove links [text](url)
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    // Remove bold **text** and __text__
+    .replace(/(\*\*|__)(.*?)\1/g, '$2')
+    // Remove italic *text* and _text_
+    .replace(/(\*|_)(.*?)\1/g, '$2')
+    // Remove inline code `code`
+    .replace(/`([^`]+)`/g, '$1')
+    // Remove headers # ## ### etc
+    .replace(/^#{1,6}\s+/gm, '')
+    // Remove horizontal rules
+    .replace(/^[-*_]{3,}$/gm, '')
+    // Remove list markers
+    .replace(/^[\s]*[-*+]\s+/gm, '')
+    .replace(/^[\s]*\d+\.\s+/gm, '')
+    // Remove blockquotes
+    .replace(/^>\s+/gm, '')
+    // Remove extra whitespace and normalize
+    .replace(/\s+/g, ' ')
+    .trim();
   
   // Get substring and add ellipsis if needed
-  return trimmed.length > maxLength 
-    ? trimmed.substring(0, maxLength) + "..."
-    : trimmed;
+  return cleaned.length > maxLength 
+    ? cleaned.substring(0, maxLength) + "..."
+    : cleaned;
 }
 
 export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
@@ -48,7 +68,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
   return (
     <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-8 px-4 text-black flex flex-col items-center">
       {/* Header section */}
-      <section className="flex flex-col w-full items-center mb-8 animate-fade-in">
+      <section className="flex flex-col w-full items-center mb-8">
         <div className="relative w-24 h-24 md:w-28 md:h-28 flex-shrink-0 mb-6 group">
           <Link href="/" passHref>
             <Image
@@ -88,7 +108,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
           }`}
           onClick={() => handleFilter("Article")}
         >
-          📚 Articles
+          Articles
         </button>
         <button
           className={`px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
@@ -98,7 +118,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
           }`}
           onClick={() => handleFilter("Post")}
         >
-          ✍️ Posts
+          Posts
         </button>
         <button
           className={`px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
@@ -108,7 +128,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
           }`}
           onClick={() => handleFilter("Answer")}
         >
-          💡 Answers
+          Answers
         </button>
       </div>
 
@@ -117,19 +137,13 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
         {filteredThoughts.slice(0, visibleCount).map((thought, index) => (
           <article
             key={thought.slug}
-            className="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 overflow-hidden animate-slide-up"
-            style={{ animationDelay: `${index * 100}ms` }}
+            className="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 overflow-hidden"
           >
             <div className="p-6 sm:p-8">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                 <div className="flex items-center gap-3 mb-2 sm:mb-0">
-                  <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold ${
-                    thought.type === 'Article' ? 'bg-blue-100 text-blue-800' :
-                    thought.type === 'Post' ? 'bg-green-100 text-green-800' :
-                    thought.type === 'Answer' ? 'bg-purple-100 text-purple-800' :
-                    'bg-gray-100 text-gray-800'
-                  }`}>
-                    {thought.type === 'Article' ? '📚' : thought.type === 'Post' ? '✍️' : thought.type === 'Answer' ? '💡' : '📄'} {thought.type}
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-gray-100 text-gray-800">
+                    {thought.type}
                   </span>
                 </div>
                 <time className="text-sm text-gray-500 font-medium">
@@ -148,9 +162,9 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
               <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
                 <div className="flex-1 min-w-0">
                   {thought.summary ? (
-                    <div className="prose prose-gray max-w-none text-gray-600 leading-relaxed">
-                      <ReactMarkdown>{thought.summary}</ReactMarkdown>
-                    </div>
+                    <p className="text-gray-600 leading-relaxed">
+                      {getCleanPreview(thought.summary, 150)}
+                    </p>
                   ) : (
                     <p className="text-gray-600 leading-relaxed">
                       {getCleanPreview(thought.content, 150)}
