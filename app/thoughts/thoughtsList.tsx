@@ -10,6 +10,23 @@ type ThoughtsListingProps = {
   thoughts: Thought[];
 };
 
+// Helper function to clean content for preview
+function getCleanPreview(content: string, maxLength: number = 100): string {
+  // Remove HTML tags
+  const withoutTags = content.replace(/<[^>]*>/g, '');
+  
+  // Remove markdown frontmatter if it exists
+  const withoutFrontmatter = withoutTags.replace(/^---[\s\S]*?---\s*/, '');
+  
+  // Trim whitespace
+  const trimmed = withoutFrontmatter.trim();
+  
+  // Get substring and add ellipsis if needed
+  return trimmed.length > maxLength 
+    ? trimmed.substring(0, maxLength) + "..."
+    : trimmed;
+}
+
 export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
   const [visibleCount, setVisibleCount] = useState(5);
   const [filter, setFilter] = useState("");
@@ -109,7 +126,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
               )}
               {!thought.summary && (
                 <div className="prose max-w-none mt-4 text-lg mr-4 text-left">
-                  {thought.content.substring(0, 100) + "..."}
+                  {getCleanPreview(thought.content)}
                 </div>
               )}
               <div className="mt-4 max-w justify-self-end	">
