@@ -23,6 +23,13 @@ export default function QuestionForm() {
     setEmail("");
   };
 
+  const handleBackdropClick = (e: React.MouseEvent) => {
+    // Only close if clicking the backdrop, not the modal content
+    if (e.target === e.currentTarget) {
+      closeForm();
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -86,7 +93,10 @@ export default function QuestionForm() {
       </button>
       {isFormOpen && (
         <>
-          <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50 p-4 backdrop-blur-sm">
+          <div 
+            className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50 p-4 backdrop-blur-sm"
+            onClick={handleBackdropClick}
+          >
             <div className="bg-white text-gray-900 rounded-2xl w-full max-w-2xl p-8 relative shadow-2xl transform transition-all duration-300 scale-100">
               <button
                 onClick={closeForm}

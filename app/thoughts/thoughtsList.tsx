@@ -135,56 +135,53 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
       {/* List of thoughts */}
       <div className="grid gap-6 w-full max-w-4xl px-4 sm:px-6 lg:px-8">
         {filteredThoughts.slice(0, visibleCount).map((thought, index) => (
-          <article
-            key={thought.slug}
-            className="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 overflow-hidden"
-          >
-            <div className="p-6 sm:p-8">
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
-                <div className="flex items-center gap-3 mb-2 sm:mb-0">
-                  <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-gray-100 text-gray-800">
-                    {thought.type}
-                  </span>
-                </div>
-                <time className="text-sm text-gray-500 font-medium">
-                  {new Date(thought.date).toLocaleDateString('en-US', { 
-                    year: 'numeric', 
-                    month: 'short', 
-                    day: 'numeric' 
-                  })}
-                </time>
-              </div>
-              
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 group-hover:text-gray-700 transition-colors duration-200">
-                {thought.title}
-              </h2>
-              
-              <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
-                <div className="flex-1 min-w-0">
-                  {thought.summary ? (
-                    <p className="text-gray-600 leading-relaxed">
-                      {getCleanPreview(thought.summary, 150)}
-                    </p>
-                  ) : (
-                    <p className="text-gray-600 leading-relaxed">
-                      {getCleanPreview(thought.content, 150)}
-                    </p>
-                  )}
+          <Link key={thought.slug} href={`/thoughts/${thought.slug}`}>
+            <article className="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 overflow-hidden cursor-pointer">
+              <div className="p-6 sm:p-8">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
+                  <div className="flex items-center gap-3 mb-2 sm:mb-0">
+                    <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-gray-100 text-gray-800">
+                      {thought.type}
+                    </span>
+                  </div>
+                  <time className="text-sm text-gray-500 font-medium">
+                    {new Date(thought.date).toLocaleDateString('en-US', { 
+                      year: 'numeric', 
+                      month: 'short', 
+                      day: 'numeric' 
+                    })}
+                  </time>
                 </div>
                 
-                <div className="flex-shrink-0 lg:ml-6">
-                  <Link href={`/thoughts/${thought.slug}`}>
-                    <button className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-gray-800 to-gray-700 text-white font-medium rounded-xl hover:from-gray-700 hover:to-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition-all duration-200 transform hover:scale-105 shadow-md hover:shadow-lg">
+                <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 group-hover:text-gray-700 transition-colors duration-200">
+                  {thought.title}
+                </h2>
+                
+                <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
+                  <div className="flex-1 min-w-0">
+                    {thought.summary ? (
+                      <p className="text-gray-600 leading-relaxed">
+                        {getCleanPreview(thought.summary, 150)}
+                      </p>
+                    ) : (
+                      <p className="text-gray-600 leading-relaxed">
+                        {getCleanPreview(thought.content, 150)}
+                      </p>
+                    )}
+                  </div>
+                  
+                  <div className="flex-shrink-0 lg:ml-6">
+                    <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-gray-800 to-gray-700 text-white font-medium rounded-xl group-hover:from-gray-700 group-hover:to-gray-600 transition-all duration-200 transform group-hover:scale-105 shadow-md group-hover:shadow-lg">
                       Read More
                       <svg className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
-                    </button>
-                  </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </article>
+            </article>
+          </Link>
         ))}
       </div>
       {visibleCount < filteredThoughts.length && (
