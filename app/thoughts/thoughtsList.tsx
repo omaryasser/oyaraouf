@@ -188,7 +188,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
         <div className="mt-12 mb-8">
           <button
             onClick={showMore}
-            className="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-2xl hover:from-indigo-700 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl animate-pulse"
+            className="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-gray-800 to-gray-700 text-white font-semibold rounded-2xl hover:from-gray-700 hover:to-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl animate-pulse"
           >
             <span className="mr-2">Load More</span>
             <svg className="w-5 h-5 transition-transform group-hover:translate-y-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
