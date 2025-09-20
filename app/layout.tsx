@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "./footer";
-import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
-
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 
 export const metadata: Metadata = {
   title: "Omar Yasser Morsi - Personal Website",
@@ -59,9 +58,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className="min-h-screen flex flex-col bg-white text-gray-900 antialiased">
         <main className="flex-1">
-          <AppRouterCacheProvider>
-            {children}
-          </AppRouterCacheProvider>
+          <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
         </main>
         <Footer />
       </body>

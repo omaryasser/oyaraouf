@@ -139,7 +139,9 @@
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   font-size: 0.875rem;
-  font-family: ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family:
+    ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo,
+    monospace;
 }
 
 /* Enhanced code blocks */
@@ -149,13 +151,17 @@
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   overflow-x: auto;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  box-shadow:
+    0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 #react-markdown pre code {
   color: #f3f4f6;
   font-size: 0.875rem;
-  font-family: ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family:
+    ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo,
+    monospace;
   line-height: 1.625;
   background: transparent !important;
   padding: 0 !important;
@@ -189,7 +195,9 @@
 /* Images */
 #react-markdown img {
   border-radius: 0.5rem;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  box-shadow:
+    0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
   margin-bottom: 1.5rem;
   max-width: 100%;
   height: auto;

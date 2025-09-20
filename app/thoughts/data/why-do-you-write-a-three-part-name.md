@@ -9,4 +9,3 @@ type: "Answer"
 ---
 
 In Egypt, we are used to addressing each other by either the first and second names or by the first name and the family name. In Europe, people typically use the first and last names, so to avoid confusion, I started using "Omar Morsi" on official papers. I don't like omitting my father's name, so whenever possible, I use "Omar Yasser Morsi."
-

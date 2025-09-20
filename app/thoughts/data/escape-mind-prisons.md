@@ -30,4 +30,3 @@ Read about the matter in newspapers that you have never read before.
 If your discipline is high enough, you can also search for a book that most of the adopters of the opposing point of view recommended.
 
 𝐒𝐭𝐞𝐩 4: The result. I promise you, if you have never done this before, you will be astonished by the findings. You might end up with the same stance but you will still be astonished by the amount of facts that were intentionally hidden and the ones that were fabricated for you.
-

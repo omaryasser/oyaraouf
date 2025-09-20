@@ -16,10 +16,10 @@ export default function ShareButtons({ title, summary, slug }: ShareProps) {
   const shareText = `Check this post: ${title}\n\n${summary}\n\nRead more at: ${pageUrl}`;
 
   const twitterShareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-    shareText
+    shareText,
   )}`;
   const linkedInShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-    pageUrl
+    pageUrl,
   )}`;
 
   const handleCopy = async () => {

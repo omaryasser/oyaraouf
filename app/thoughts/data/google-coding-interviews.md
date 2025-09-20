@@ -6,20 +6,23 @@ summary: "In this article, I will discuss what I think Google interviewers are l
 ---
 
 ## What is it about?
+
 In this article, I will discuss what I think Google interviewers are looking for and why I think they would be looking for those skills.
 
-
 ## What isn't it about?
+
 I will give some tips about how to demonstrate the skills but the article **is not** mainly about that. That's because **the first step** towards demonstrating these skills is to be aware that they are needed. The second step is practicing them a lot. The last step is to know some tricks of how to demonstrate them when you already have them. I will be focusing here mainly on the first step.
 
 The article is mainly focused on coding interviews and not system design or Googlyness.
 
-*The advice in this article is purely my opinion, from my experience with interviewing in Google, and what I myself would like to see as an interviewer.*
+_The advice in this article is purely my opinion, from my experience with interviewing in Google, and what I myself would like to see as an interviewer._
 
 ## Skills
+
 I will explain each skill they are looking for as well as why they are looking for it.
 
 ### Communication Skills
+
 <u>What are they looking for?</u>
 
 I think that Google interviewers would be looking for candidates with good communication skills. Those are candidates who ...
@@ -42,6 +45,7 @@ That is one important skill that is needed in a company with the scale of Google
 In the end, people would want to hire people they'd love working with and wouldn't have trouble communicating with.
 
 ## Clean, readable & extensible code
+
 <u>What are they looking for?</u>
 
 I think that Google interviewers would be looking for candidates who can write bug-free, readable, and extensible code.
@@ -64,16 +68,17 @@ Teams would also be asked to implement more features (sometimes not previously a
 Most of Google's products have many users, so it's rare for a code path to not be regularly exercised by users, so bugs will be triggered and will annoy users quickly. So it's important to have the skill to write bug-free code and to catch bugs quickly both in a code you wrote or a code someone else wrote (i.e. when you are reviewing a teammate's code for example).
 
 ## Attention to Detail
+
 <u>What are they looking for?</u>
 
 I think that Google interviewers would be looking for candidates who are attentive to details. By that, I mean the following skills.
 
 **Confirming the problem and its constraints.** Before you start writing code or finding solutions, you need to make sure that you understand the problem correctly. Those are aspects like the following:
 
-* How large is the input? How small can it be?
-* In what format and data structure will the input be given?
-* Can the special case X be encountered in the input?
-* What is the expected way of handling the special case Y?
+- How large is the input? How small can it be?
+- In what format and data structure will the input be given?
+- Can the special case X be encountered in the input?
+- What is the expected way of handling the special case Y?
 
 **Keeping track of ideas and todos.** Try to write down (if it will not waste a lot of time) your ideas in detail. Whenever you are postponing the implementation of some function or postponing thinking about a specific use case, write it down as a to-do comment. Also, when you have an assumption or an expectation about the input or the output, write it down as a comment.
 
@@ -92,21 +97,23 @@ Interviewers want to hire people who can validate their ideas on their own befor
 Troubleshooting is a very important skill when working in a huge code base and large-scale products as it is not about debugging a single function, class, or file anymore. It's a huge stack and someone who is not used to catching their bugs on their own may waste others' time to figure out the problems for them. So when you are practicing, and you write a code that is not passing the test cases; invest time in figuring out the problem yourself.
 
 ## Data Structures and Algorithms Skills
+
 <u>What are they looking for?</u>
 
 I think that Google interviewers would be looking for candidates who have good data structures knowledge and good algorithmic skills.
 
 By that I mean, the following.
 
-* Choosing a data structure that would efficiently handle the specific use case and type of data presented to them.
-* Explaining and implementing efficient algorithms to solve the problem. Start with explaining the easiest and less efficient first and then explain the more efficient ones.
-* Analyzing the time and space complexities of the different solutions.
+- Choosing a data structure that would efficiently handle the specific use case and type of data presented to them.
+- Explaining and implementing efficient algorithms to solve the problem. Start with explaining the easiest and less efficient first and then explain the more efficient ones.
+- Analyzing the time and space complexities of the different solutions.
 
 <u>Why are they looking for it?</u>
 
 As said above, in Google, most probably, all of the code paths of your implementation will be exercised by your users and they will be exercised a lot. That's why people who know how to use the right data structure and who know the tradeoffs of different approaches and can analyze and spot them can save a lot of resources for the company and can offer better and more efficient products to customers.
 
 # Feedback Acceptance
+
 <u>What are they looking for?</u>
 
 I think that Google interviewers would be looking for candidates who accept and appreciate feedback. By that, I mean the attitude after receiving feedback or a hint. Also how you will benefit from and put that feedback into action.

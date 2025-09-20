@@ -52,7 +52,7 @@ export default function QuestionForm() {
           hideProgressBar: true,
           draggable: false,
           closeOnClick: true,
-        }
+        },
       );
       setQuestion("");
       setEmail("");

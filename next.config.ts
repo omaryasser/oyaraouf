@@ -1,14 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  distDir: 'docs',
+  output: "export",
+  distDir: "docs",
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
   eslint: {
-    ignoreDuringBuilds: true
-  }
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;

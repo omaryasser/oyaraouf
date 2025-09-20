@@ -14,36 +14,36 @@ type ThoughtsListingProps = {
 // Helper function to clean content for preview
 function getCleanPreview(content: string, maxLength: number = 150): string {
   // Remove HTML tags
-  const withoutTags = content.replace(/<[^>]*>/g, '');
-  
+  const withoutTags = content.replace(/<[^>]*>/g, "");
+
   // Remove markdown frontmatter if it exists
-  const withoutFrontmatter = withoutTags.replace(/^---[\s\S]*?---\s*/, '');
-  
+  const withoutFrontmatter = withoutTags.replace(/^---[\s\S]*?---\s*/, "");
+
   // Remove markdown syntax
   let cleaned = withoutFrontmatter
     // Remove links [text](url)
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
     // Remove bold **text** and __text__
-    .replace(/(\*\*|__)(.*?)\1/g, '$2')
+    .replace(/(\*\*|__)(.*?)\1/g, "$2")
     // Remove italic *text* and _text_
-    .replace(/(\*|_)(.*?)\1/g, '$2')
+    .replace(/(\*|_)(.*?)\1/g, "$2")
     // Remove inline code `code`
-    .replace(/`([^`]+)`/g, '$1')
+    .replace(/`([^`]+)`/g, "$1")
     // Remove headers # ## ### etc
-    .replace(/^#{1,6}\s+/gm, '')
+    .replace(/^#{1,6}\s+/gm, "")
     // Remove horizontal rules
-    .replace(/^[-*_]{3,}$/gm, '')
+    .replace(/^[-*_]{3,}$/gm, "")
     // Remove list markers
-    .replace(/^[\s]*[-*+]\s+/gm, '')
-    .replace(/^[\s]*\d+\.\s+/gm, '')
+    .replace(/^[\s]*[-*+]\s+/gm, "")
+    .replace(/^[\s]*\d+\.\s+/gm, "")
     // Remove blockquotes
-    .replace(/^>\s+/gm, '')
+    .replace(/^>\s+/gm, "")
     // Remove extra whitespace and normalize
-    .replace(/\s+/g, ' ')
+    .replace(/\s+/g, " ")
     .trim();
-  
+
   // Get substring and add ellipsis if needed
-  return cleaned.length > maxLength 
+  return cleaned.length > maxLength
     ? cleaned.substring(0, maxLength) + "..."
     : cleaned;
 }
@@ -62,7 +62,7 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
   };
 
   const filteredThoughts = thoughts.filter(
-    (thought) => filter === "" || thought.type === filter
+    (thought) => filter === "" || thought.type === filter,
   );
 
   return (
@@ -84,7 +84,8 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
           Thoughts 💭
         </h1>
         <p className="text-gray-600 text-lg md:text-xl text-center max-w-2xl">
-          Explore articles, posts, and answers on software engineering, career advice, and life insights.
+          Explore articles, posts, and answers on software engineering, career
+          advice, and life insights.
         </p>
       </section>
 
@@ -92,8 +93,8 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
       <div className="flex flex-wrap justify-center gap-3 mb-8 p-4">
         <button
           className={`px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-            filter === "" 
-              ? "bg-gray-800 text-white shadow-lg hover:bg-gray-700 focus:ring-gray-500" 
+            filter === ""
+              ? "bg-gray-800 text-white shadow-lg hover:bg-gray-700 focus:ring-gray-500"
               : "bg-white text-gray-700 border-2 border-gray-200 hover:border-gray-400 hover:bg-gray-50 focus:ring-gray-300"
           }`}
           onClick={() => handleFilter("")}
@@ -102,8 +103,8 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
         </button>
         <button
           className={`px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-            filter === "Article" 
-              ? "bg-blue-600 text-white shadow-lg hover:bg-blue-700 focus:ring-blue-500" 
+            filter === "Article"
+              ? "bg-blue-600 text-white shadow-lg hover:bg-blue-700 focus:ring-blue-500"
               : "bg-white text-gray-700 border-2 border-gray-200 hover:border-blue-300 hover:bg-blue-50 focus:ring-blue-300"
           }`}
           onClick={() => handleFilter("Article")}
@@ -112,8 +113,8 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
         </button>
         <button
           className={`px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-            filter === "Post" 
-              ? "bg-green-600 text-white shadow-lg hover:bg-green-700 focus:ring-green-500" 
+            filter === "Post"
+              ? "bg-green-600 text-white shadow-lg hover:bg-green-700 focus:ring-green-500"
               : "bg-white text-gray-700 border-2 border-gray-200 hover:border-green-300 hover:bg-green-50 focus:ring-green-300"
           }`}
           onClick={() => handleFilter("Post")}
@@ -122,8 +123,8 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
         </button>
         <button
           className={`px-6 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
-            filter === "Answer" 
-              ? "bg-purple-600 text-white shadow-lg hover:bg-purple-700 focus:ring-purple-500" 
+            filter === "Answer"
+              ? "bg-purple-600 text-white shadow-lg hover:bg-purple-700 focus:ring-purple-500"
               : "bg-white text-gray-700 border-2 border-gray-200 hover:border-purple-300 hover:bg-purple-50 focus:ring-purple-300"
           }`}
           onClick={() => handleFilter("Answer")}
@@ -145,18 +146,18 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
                     </span>
                   </div>
                   <time className="text-sm text-gray-500 font-medium">
-                    {new Date(thought.date).toLocaleDateString('en-US', { 
-                      year: 'numeric', 
-                      month: 'short', 
-                      day: 'numeric' 
+                    {new Date(thought.date).toLocaleDateString("en-US", {
+                      year: "numeric",
+                      month: "short",
+                      day: "numeric",
                     })}
                   </time>
                 </div>
-                
+
                 <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 group-hover:text-gray-700 transition-colors duration-200">
                   {thought.title}
                 </h2>
-                
+
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
                   <div className="flex-1 min-w-0">
                     {thought.summary ? (
@@ -169,12 +170,22 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
                       </p>
                     )}
                   </div>
-                  
+
                   <div className="flex-shrink-0 lg:ml-6">
                     <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-gray-800 to-gray-700 text-white font-medium rounded-xl group-hover:from-gray-700 group-hover:to-gray-600 transition-all duration-200 transform group-hover:scale-105 shadow-md group-hover:shadow-lg">
                       Read More
-                      <svg className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      <svg
+                        className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M9 5l7 7-7 7"
+                        />
                       </svg>
                     </div>
                   </div>
@@ -191,8 +202,18 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
             className="group relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-gray-800 to-gray-700 text-white font-semibold rounded-2xl hover:from-gray-700 hover:to-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl animate-pulse"
           >
             <span className="mr-2">Load More</span>
-            <svg className="w-5 h-5 transition-transform group-hover:translate-y-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            <svg
+              className="w-5 h-5 transition-transform group-hover:translate-y-1"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M19 14l-7 7m0 0l-7-7m7 7V3"
+              />
             </svg>
           </button>
         </div>

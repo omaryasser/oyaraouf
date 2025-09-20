@@ -1,7 +1,6 @@
 import { getAllThoughts } from "@/lib/thoughtsRetriever";
 import ThoughtsListing from "./thoughtsList";
 
-
 export default function ThoughtsListingPage() {
   const thoughts = getAllThoughts();
 

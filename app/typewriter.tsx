@@ -1,17 +1,10 @@
-'use client'
+"use client";
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
-function Typewriter({
-  text,
-  speed,
-}: {
-  text: string;
-  speed: number;
-}) {
-  const [displayedText, setDisplayedText] = useState('');
+function Typewriter({ text, speed }: { text: string; speed: number }) {
+  const [displayedText, setDisplayedText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
-
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -21,7 +14,7 @@ function Typewriter({
       } else {
         clearInterval(intervalId);
       }
-    }, 100-speed);
+    }, 100 - speed);
 
     return () => clearInterval(intervalId);
   });

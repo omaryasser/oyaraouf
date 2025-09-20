@@ -35,7 +35,7 @@ export default function TranslateButton({ slug }: TranslateButtonProps) {
         <div className="flex justify-center">
           <a
             href={`https://translate.google.com/translate?sl=ar&tl=en&u=${encodeURIComponent(
-              `https://oyaraouf.com/thoughts/${slug}`
+              `https://oyaraouf.com/thoughts/${slug}`,
             )}`}
             target="_blank"
             rel="noopener noreferrer"

@@ -119,10 +119,10 @@ export default async function ThoughtDetailPage({
           </h1>
 
           <time className="text-gray-600 text-lg font-medium">
-            {new Date(thought.date).toLocaleDateString('en-US', { 
-              year: 'numeric', 
-              month: 'long', 
-              day: 'numeric' 
+            {new Date(thought.date).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
             })}
           </time>
 
@@ -137,7 +137,10 @@ export default async function ThoughtDetailPage({
 
         {/* Content */}
         <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-12">
-          <div id="react-markdown" className="prose prose-lg max-w-none text-gray-800 leading-relaxed">
+          <div
+            id="react-markdown"
+            className="prose prose-lg max-w-none text-gray-800 leading-relaxed"
+          >
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               rehypePlugins={[rehypeRaw]}
@@ -169,11 +172,23 @@ export default async function ThoughtDetailPage({
                 className="group flex-1 p-4 rounded-xl border-2 border-gray-200 hover:border-gray-400 transition-all duration-200 hover:shadow-md"
               >
                 <div className="flex items-center">
-                  <svg className="w-5 h-5 mr-3 text-gray-500 group-hover:text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  <svg
+                    className="w-5 h-5 mr-3 text-gray-500 group-hover:text-gray-700"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 19l-7-7 7-7"
+                    />
                   </svg>
                   <div>
-                    <span className="text-sm text-gray-500 block">Previous</span>
+                    <span className="text-sm text-gray-500 block">
+                      Previous
+                    </span>
                     <span className="text-gray-900 font-medium group-hover:text-gray-700 transition-colors">
                       {thought.previousTitle}
                     </span>
@@ -183,7 +198,7 @@ export default async function ThoughtDetailPage({
             ) : (
               <div className="flex-1"></div>
             )}
-            
+
             {thought.nextSlug ? (
               <Link
                 href={`/thoughts/${thought.nextSlug}`}
@@ -196,8 +211,18 @@ export default async function ThoughtDetailPage({
                       {thought.nextTitle}
                     </span>
                   </div>
-                  <svg className="w-5 h-5 ml-3 text-gray-500 group-hover:text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-5 h-5 ml-3 text-gray-500 group-hover:text-gray-700"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </div>
               </Link>

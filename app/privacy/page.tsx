@@ -81,7 +81,6 @@ export default function PrivacyPage() {
         </div>
       </section>
 
-
       {/* Content Section */}
       <main className="space-y-4 max-w-3xl pb-8 px-8">
         <section className="mb-6">

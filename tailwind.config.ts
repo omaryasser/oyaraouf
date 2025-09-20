@@ -9,12 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'black': '#000000',
-        'grey': '#646363',
-        'white': '#FFFFFF',
+        black: "#000000",
+        grey: "#646363",
+        white: "#FFFFFF",
       },
     },
   },
   plugins: [],
-  darkMode: 'selector',
+  darkMode: "selector",
 } satisfies Config;
