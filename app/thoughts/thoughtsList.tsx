@@ -154,18 +154,21 @@ export default function ThoughtsList({ thoughts }: ThoughtsListingProps) {
                   </time>
                 </div>
 
-                <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 group-hover:text-gray-700 transition-colors duration-200">
+                <h2
+                  className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 group-hover:text-gray-700 transition-colors duration-200"
+                  dir="auto"
+                >
                   {thought.title}
                 </h2>
 
                 <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
                   <div className="flex-1 min-w-0">
                     {thought.summary ? (
-                      <p className="text-gray-600 leading-relaxed">
+                      <p className="text-gray-600 leading-relaxed" dir="auto">
                         {getCleanPreview(thought.summary, 150)}
                       </p>
                     ) : (
-                      <p className="text-gray-600 leading-relaxed">
+                      <p className="text-gray-600 leading-relaxed" dir="auto">
                         {getCleanPreview(thought.content, 150)}
                       </p>
                     )}

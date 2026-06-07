@@ -2,7 +2,7 @@
 title: "How to feel if my younger sibling is better than me? | أتعامل ازاي مع احساس ان اخي الصغير اشطر مني؟"
 date: "2025-05-04"
 type: "Answer"
-translate: true
+language: "ar"
 ---
 
 <div dir="rtl">

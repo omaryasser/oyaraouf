@@ -114,7 +114,10 @@ export default async function ThoughtDetailPage({
             </span>
           </div>
 
-          <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4 leading-tight">
+          <h1
+            className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4 leading-tight"
+            dir="auto"
+          >
             {thought.title}
           </h1>
 
@@ -126,7 +129,7 @@ export default async function ThoughtDetailPage({
             })}
           </time>
 
-          {thought.translate && (
+          {thought.language && (
             <div className="mt-6">
               <Suspense>
                 <TranslateButton slug={thought.slug}></TranslateButton>
